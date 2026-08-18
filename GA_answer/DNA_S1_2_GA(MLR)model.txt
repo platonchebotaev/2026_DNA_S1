@@ -1,0 +1,739 @@
+GA-MLR (File Code: 1928) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,576(+/-0,016)  +1,1264(+/-0,3726) MATS2i:(alvaDesc) +0,0106(+/-0,0028) ATSC1s:(alvaDesc) -0,6279(+/-0,0829) GATS3i:(alvaDesc) -0,469(+/-0,1625) MATS2v:(alvaDesc) -0,0147(+/-0,0119) ATSC6v:(alvaDesc) +0,2088(+/-0,0752) MATS5v:(alvaDesc) +3,2306(+/-0,5391) JGI2:(alvaDesc) -0,0546(+/-0,017) ATS7i:(alvaDesc) +0,0146(+/-0,0068) GATS7e:(alvaDesc) +0,0077(+/-0,0026) ATSC3p:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8327
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7573
+R2 Adjusted :0,7221
+SEE :0,0402
+Q2 :0,664
+SDEP :0,044
+Scaled Average rm2 LOO:0,5445
+Scaled Delta rm2 LOO:0,179
+MAE (95% data;TRAIN*) :0,0238
+SD (95% data;TRAIN*) :0,0287
+MAE+3*SD (95% data;TRAIN*) :0,1099
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+MATS2i:(alvaDesc) : Description not available in database
+
+ATSC1s:(alvaDesc) : Description not available in database
+
+GATS3i:(alvaDesc) : Description not available in database
+
+MATS2v:(alvaDesc) : Description not available in database
+
+ATSC6v:(alvaDesc) : Description not available in database
+
+MATS5v:(alvaDesc) : Description not available in database
+
+JGI2:(alvaDesc) : Description not available in database
+
+ATS7i:(alvaDesc) : Description not available in database
+
+GATS7e:(alvaDesc) : Description not available in database
+
+ATSC3p:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+MATS2i:(alvaDesc) : GATS3i:(alvaDesc) = 0,6119
+MATS2i:(alvaDesc) : ATSC6v:(alvaDesc) = 0,5155
+ATSC1s:(alvaDesc) : ATS7i:(alvaDesc) = 0,6155
+GATS3i:(alvaDesc) : JGI2:(alvaDesc) = 0,7302
+JGI2:(alvaDesc) : ATSC3p:(alvaDesc) = 0,5241
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 4552) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5782(+/-0,0164)  +0,5076(+/-0,2129) ATSC7e:(alvaDesc) +0,438(+/-0,0828) MATS3i:(alvaDesc) -0,3644(+/-0,1042) MATS3s:(alvaDesc) -0,1544(+/-0,0637) GATS2i:(alvaDesc) +0,0001(+/-0,0002) ATSC7m:(alvaDesc) +3,5453(+/-0,413) JGI2:(alvaDesc) -0,1991(+/-0,1024) GATS2s:(alvaDesc) -0,0323(+/-0,0115) MATS7m:(alvaDesc) -0,6764(+/-0,2081) MATS2i:(alvaDesc) -0,0384(+/-0,0477) ATSC5i:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9039
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7547
+R2 Adjusted :0,7192
+SEE :0,0404
+Q2 :0,6694
+SDEP :0,0436
+Scaled Average rm2 LOO:0,5553
+Scaled Delta rm2 LOO:0,1505
+MAE (95% data;TRAIN*) :0,0222
+SD (95% data;TRAIN*) :0,0271
+MAE+3*SD (95% data;TRAIN*) :0,1034
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+ATSC7e:(alvaDesc) : Description not available in database
+
+MATS3i:(alvaDesc) : Description not available in database
+
+MATS3s:(alvaDesc) : Description not available in database
+
+GATS2i:(alvaDesc) : Description not available in database
+
+ATSC7m:(alvaDesc) : Description not available in database
+
+JGI2:(alvaDesc) : Description not available in database
+
+GATS2s:(alvaDesc) : Description not available in database
+
+MATS7m:(alvaDesc) : Description not available in database
+
+MATS2i:(alvaDesc) : Description not available in database
+
+ATSC5i:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+GATS2i:(alvaDesc) : GATS2s:(alvaDesc) = 0,5596
+JGI2:(alvaDesc) : GATS2s:(alvaDesc) = 0,712
+GATS2s:(alvaDesc) : MATS2i:(alvaDesc) = 0,5948
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 6173) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,6852(+/-0,0702)  -0,0871(+/-0,0721) GATS1i:(alvaDesc) -0,1297(+/-0,0777) GATS1s:(alvaDesc) +0,0055(+/-0,0027) ATSC1s:(alvaDesc) -0,0759(+/-0,1111) GATS3i:(alvaDesc) -0,0309(+/-0,0138) MATS7m:(alvaDesc) -0,0389(+/-0,1164) GATS2i:(alvaDesc) -0,1103(+/-0,0707) MATS1s:(alvaDesc) -0,1384(+/-0,0339) GGI2:(alvaDesc) +4,013(+/-0,7553) JGI2:(alvaDesc) +0,4842(+/-0,1176) MATS3i:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8737
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7577
+R2 Adjusted :0,7226
+SEE :0,0402
+Q2 :0,6881
+SDEP :0,0424
+Scaled Average rm2 LOO:0,5751
+Scaled Delta rm2 LOO:0,1641
+MAE (95% data;TRAIN*) :0,0235
+SD (95% data;TRAIN*) :0,0272
+MAE+3*SD (95% data;TRAIN*) :0,1051
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+GATS1i:(alvaDesc) : Description not available in database
+
+GATS1s:(alvaDesc) : Description not available in database
+
+ATSC1s:(alvaDesc) : Description not available in database
+
+GATS3i:(alvaDesc) : Description not available in database
+
+MATS7m:(alvaDesc) : Description not available in database
+
+GATS2i:(alvaDesc) : Description not available in database
+
+MATS1s:(alvaDesc) : Description not available in database
+
+GGI2:(alvaDesc) : Description not available in database
+
+JGI2:(alvaDesc) : Description not available in database
+
+MATS3i:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+GATS1i:(alvaDesc) : GATS2i:(alvaDesc) = 0,7054
+GATS1s:(alvaDesc) : MATS1s:(alvaDesc) = 0,5666
+GATS3i:(alvaDesc) : GATS2i:(alvaDesc) = 0,797
+GATS3i:(alvaDesc) : GGI2:(alvaDesc) = 0,5196
+GATS3i:(alvaDesc) : JGI2:(alvaDesc) = 0,7302
+GGI2:(alvaDesc) : JGI2:(alvaDesc) = 0,7935
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1864) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,6799(+/-0,0232)  +0,0136(+/-0,0063) GATS7e:(alvaDesc) -0,1108(+/-0,0223) MATS1i:(alvaDesc) +0,0037(+/-0,0015) ATSC1s:(alvaDesc) -0,6558(+/-0,1811) MATS4p:(alvaDesc) -0,2102(+/-0,0267) GATS1i:(alvaDesc) -0,0675(+/-0,0238) MATS6i:(alvaDesc) +0,2087(+/-0,0581) MATS5v:(alvaDesc) -0,3795(+/-0,0852) MATS5i:(alvaDesc) +0,1784(+/-0,145) MATS4i:(alvaDesc) +0,0285(+/-0,0231) ATS8e:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,856
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7842
+R2 Adjusted :0,7529
+SEE :0,0379
+Q2 :0,7075
+SDEP :0,041
+Scaled Average rm2 LOO:0,5995
+Scaled Delta rm2 LOO:0,155
+MAE (95% data;TRAIN*) :0,0249
+SD (95% data;TRAIN*) :0,0268
+MAE+3*SD (95% data;TRAIN*) :0,1052
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+GATS7e:(alvaDesc) : Description not available in database
+
+MATS1i:(alvaDesc) : Description not available in database
+
+ATSC1s:(alvaDesc) : Description not available in database
+
+MATS4p:(alvaDesc) : Description not available in database
+
+GATS1i:(alvaDesc) : Description not available in database
+
+MATS6i:(alvaDesc) : Description not available in database
+
+MATS5v:(alvaDesc) : Description not available in database
+
+MATS5i:(alvaDesc) : Description not available in database
+
+MATS4i:(alvaDesc) : Description not available in database
+
+ATS8e:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+MATS4p:(alvaDesc) : MATS4i:(alvaDesc) = 0,8004
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 9138) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,7244(+/-0,0241)  +4,6651(+/-0,5721) JGI2:(alvaDesc) -0,1(+/-0,0518) MATS5e:(alvaDesc) -0,0024(+/-0,0035) ATSC3p:(alvaDesc) -0,4056(+/-0,1576) MATS2v:(alvaDesc) -0,2938(+/-0,0299) GATS1i:(alvaDesc) -0,0169(+/-0,0078) GATS6p:(alvaDesc) -0,1512(+/-0,0242) MATS1i:(alvaDesc) -0,1469(+/-0,0332) GGI2:(alvaDesc) +0,529(+/-0,0956) MATS3i:(alvaDesc) +0,0004(+/-0,0011) ATSC2s:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8988
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7742
+R2 Adjusted :0,7415
+SEE :0,0388
+Q2 :0,6896
+SDEP :0,0423
+Scaled Average rm2 LOO:0,5754
+Scaled Delta rm2 LOO:0,1749
+MAE (95% data;TRAIN*) :0,0232
+SD (95% data;TRAIN*) :0,0264
+MAE+3*SD (95% data;TRAIN*) :0,1024
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+JGI2:(alvaDesc) : Description not available in database
+
+MATS5e:(alvaDesc) : Description not available in database
+
+ATSC3p:(alvaDesc) : Description not available in database
+
+MATS2v:(alvaDesc) : Description not available in database
+
+GATS1i:(alvaDesc) : Description not available in database
+
+GATS6p:(alvaDesc) : Description not available in database
+
+MATS1i:(alvaDesc) : Description not available in database
+
+GGI2:(alvaDesc) : Description not available in database
+
+MATS3i:(alvaDesc) : Description not available in database
+
+ATSC2s:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+JGI2:(alvaDesc) : ATSC3p:(alvaDesc) = 0,5241
+JGI2:(alvaDesc) : GGI2:(alvaDesc) = 0,7935
+ATSC3p:(alvaDesc) : GGI2:(alvaDesc) = 0,6221
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 5870) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,717(+/-0,0235)  -0,188(+/-0,0263) GGI2:(alvaDesc) +0,0003(+/-0,0002) ATSC7m:(alvaDesc) -0,1932(+/-0,0635) MATS5e:(alvaDesc) -0,1386(+/-0,0234) MATS1i:(alvaDesc) +5,0908(+/-0,5683) JGI2:(alvaDesc) -0,2724(+/-0,0273) GATS1i:(alvaDesc) +0,0005(+/-0,0006) ATSC5s:(alvaDesc) -0,0025(+/-0,0016) ATSC6p:(alvaDesc) +0,533(+/-0,098) MATS3i:(alvaDesc) +0,0145(+/-0,01) MATS7p:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8755
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7697
+R2 Adjusted :0,7363
+SEE :0,0392
+Q2 :0,6947
+SDEP :0,0419
+Scaled Average rm2 LOO:0,5823
+Scaled Delta rm2 LOO:0,1691
+MAE (95% data;TRAIN*) :0,0223
+SD (95% data;TRAIN*) :0,0282
+MAE+3*SD (95% data;TRAIN*) :0,1069
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+GGI2:(alvaDesc) : Description not available in database
+
+ATSC7m:(alvaDesc) : Description not available in database
+
+MATS5e:(alvaDesc) : Description not available in database
+
+MATS1i:(alvaDesc) : Description not available in database
+
+JGI2:(alvaDesc) : Description not available in database
+
+GATS1i:(alvaDesc) : Description not available in database
+
+ATSC5s:(alvaDesc) : Description not available in database
+
+ATSC6p:(alvaDesc) : Description not available in database
+
+MATS3i:(alvaDesc) : Description not available in database
+
+MATS7p:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+GGI2:(alvaDesc) : JGI2:(alvaDesc) = 0,7935
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 9184) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,6901(+/-0,0212)  -0,1139(+/-0,0226) MATS1i:(alvaDesc) +4,0711(+/-0,5211) JGI2:(alvaDesc) -0,2246(+/-0,0246) GATS1i:(alvaDesc) +0,0244(+/-0,0071) GATS7e:(alvaDesc) -0,0055(+/-0,003) ATSC7p:(alvaDesc) +0,2011(+/-0,1718) MATS3s:(alvaDesc) +0,5183(+/-0,0902) MATS3i:(alvaDesc) +0,0004(+/-0,0002) ATSC7m:(alvaDesc) -0,1946(+/-0,0357) GGI2:(alvaDesc) +0,0084(+/-0,0027) ATSC1s:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9401
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7772
+R2 Adjusted :0,7449
+SEE :0,0385
+Q2 :0,7147
+SDEP :0,0405
+Scaled Average rm2 LOO:0,6075
+Scaled Delta rm2 LOO:0,1616
+MAE (95% data;TRAIN*) :0,0221
+SD (95% data;TRAIN*) :0,0256
+MAE+3*SD (95% data;TRAIN*) :0,0989
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+MATS1i:(alvaDesc) : Description not available in database
+
+JGI2:(alvaDesc) : Description not available in database
+
+GATS1i:(alvaDesc) : Description not available in database
+
+GATS7e:(alvaDesc) : Description not available in database
+
+ATSC7p:(alvaDesc) : Description not available in database
+
+MATS3s:(alvaDesc) : Description not available in database
+
+MATS3i:(alvaDesc) : Description not available in database
+
+ATSC7m:(alvaDesc) : Description not available in database
+
+GGI2:(alvaDesc) : Description not available in database
+
+ATSC1s:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+JGI2:(alvaDesc) : GGI2:(alvaDesc) = 0,7935
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8321) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,6779(+/-0,0255)  +3,573(+/-0,4394) JGI2:(alvaDesc) -0,265(+/-0,064) GATS2s:(alvaDesc) +0,7021(+/-0,1115) MATS3i:(alvaDesc) -0,0061(+/-0,0045) ATSC3p:(alvaDesc) -0,1319(+/-0,0418) GATS1m:(alvaDesc) -0,1007(+/-0,0257) MATS1s:(alvaDesc) -0,0643(+/-0,0517) GATS1i:(alvaDesc) -0,3356(+/-0,3326) MATS2i:(alvaDesc) -0,1446(+/-0,0511) MATS5e:(alvaDesc) +0,2436(+/-0,062) MATS5v:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9271
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7765
+R2 Adjusted :0,7441
+SEE :0,0386
+Q2 :0,6964
+SDEP :0,0418
+Scaled Average rm2 LOO:0,5878
+Scaled Delta rm2 LOO:0,1451
+MAE (95% data;TRAIN*) :0,0214
+SD (95% data;TRAIN*) :0,0268
+MAE+3*SD (95% data;TRAIN*) :0,1019
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+JGI2:(alvaDesc) : Description not available in database
+
+GATS2s:(alvaDesc) : Description not available in database
+
+MATS3i:(alvaDesc) : Description not available in database
+
+ATSC3p:(alvaDesc) : Description not available in database
+
+GATS1m:(alvaDesc) : Description not available in database
+
+MATS1s:(alvaDesc) : Description not available in database
+
+GATS1i:(alvaDesc) : Description not available in database
+
+MATS2i:(alvaDesc) : Description not available in database
+
+MATS5e:(alvaDesc) : Description not available in database
+
+MATS5v:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+JGI2:(alvaDesc) : GATS2s:(alvaDesc) = 0,712
+JGI2:(alvaDesc) : ATSC3p:(alvaDesc) = 0,5241
+GATS2s:(alvaDesc) : ATSC3p:(alvaDesc) = 0,5619
+GATS2s:(alvaDesc) : MATS2i:(alvaDesc) = 0,5948
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 616) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,8408(+/-0,0374)  -0,0408(+/-0,0102) MATS8m:(alvaDesc) +0,4979(+/-0,1053) GATS2i:(alvaDesc) -0,9056(+/-0,1125) MATS5i:(alvaDesc) -0,4261(+/-0,0719) MATS5s:(alvaDesc) -0,003(+/-0,0011) ATSC2s:(alvaDesc) -0,2693(+/-0,0424) MATS1i:(alvaDesc) -0,0237(+/-0,0073) ATSC6v:(alvaDesc) -0,5285(+/-0,0761) GATS1i:(alvaDesc) -1,1351(+/-0,6298) JGI3:(alvaDesc) +0,2268(+/-0,0519) MATS5v:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9192
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,8009
+R2 Adjusted :0,772
+SEE :0,0364
+Q2 :0,7308
+SDEP :0,0393
+Scaled Average rm2 LOO:0,6283
+Scaled Delta rm2 LOO:0,1523
+MAE (95% data;TRAIN*) :0,0225
+SD (95% data;TRAIN*) :0,0262
+MAE+3*SD (95% data;TRAIN*) :0,101
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+MATS8m:(alvaDesc) : Description not available in database
+
+GATS2i:(alvaDesc) : Description not available in database
+
+MATS5i:(alvaDesc) : Description not available in database
+
+MATS5s:(alvaDesc) : Description not available in database
+
+ATSC2s:(alvaDesc) : Description not available in database
+
+MATS1i:(alvaDesc) : Description not available in database
+
+ATSC6v:(alvaDesc) : Description not available in database
+
+GATS1i:(alvaDesc) : Description not available in database
+
+JGI3:(alvaDesc) : Description not available in database
+
+MATS5v:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+GATS2i:(alvaDesc) : GATS1i:(alvaDesc) = 0,7054
+ATSC2s:(alvaDesc) : JGI3:(alvaDesc) = 0,5495
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 3445) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,709(+/-0,0295)  -0,1335(+/-0,0307) MATS1i:(alvaDesc) +3,1229(+/-0,411) JGI2:(alvaDesc) -0,2627(+/-0,0471) GATS1i:(alvaDesc) +0,1856(+/-0,1712) GGI6:(alvaDesc) -0,1255(+/-0,0678) GATS2s:(alvaDesc) +0,4527(+/-0,0807) MATS3i:(alvaDesc) -0,0694(+/-0,0989) MATS5e:(alvaDesc) -0,5414(+/-0,0911) MATS2v:(alvaDesc) +0,0141(+/-0,0113) GATS7e:(alvaDesc) -0,1334(+/-0,0474) ATSC5i:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9319
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7521
+R2 Adjusted :0,7162
+SEE :0,0407
+Q2 :0,6795
+SDEP :0,0429
+Scaled Average rm2 LOO:0,5623
+Scaled Delta rm2 LOO:0,1824
+MAE (95% data;TRAIN*) :0,0224
+SD (95% data;TRAIN*) :0,0257
+MAE+3*SD (95% data;TRAIN*) :0,0996
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+MATS1i:(alvaDesc) : Description not available in database
+
+JGI2:(alvaDesc) : Description not available in database
+
+GATS1i:(alvaDesc) : Description not available in database
+
+GGI6:(alvaDesc) : Description not available in database
+
+GATS2s:(alvaDesc) : Description not available in database
+
+MATS3i:(alvaDesc) : Description not available in database
+
+MATS5e:(alvaDesc) : Description not available in database
+
+MATS2v:(alvaDesc) : Description not available in database
+
+GATS7e:(alvaDesc) : Description not available in database
+
+ATSC5i:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+JGI2:(alvaDesc) : GATS2s:(alvaDesc) = 0,712
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1012) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,6745(+/-0,0268)  -0,1776(+/-0,0307) GATS1i:(alvaDesc) -0,2809(+/-0,0717) MATS5i:(alvaDesc) +0,0715(+/-0,0243) ATS8e:(alvaDesc) -0,3586(+/-0,1268) MATS4p:(alvaDesc) -0,0008(+/-0,0025) ATSC3p:(alvaDesc) -0,1547(+/-0,0303) MATS6i:(alvaDesc) -0,008(+/-0,0098) ATS7i:(alvaDesc) -0,089(+/-0,0258) MATS1i:(alvaDesc) +0,681(+/-0,6127) JGI3:(alvaDesc) +0,0774(+/-0,094) MATS5m:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8443
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7142
+R2 Adjusted :0,6728
+SEE :0,0437
+Q2 :0,6242
+SDEP :0,0465
+Scaled Average rm2 LOO:0,4991
+Scaled Delta rm2 LOO:0,1766
+MAE (95% data;TRAIN*) :0,0244
+SD (95% data;TRAIN*) :0,0277
+MAE+3*SD (95% data;TRAIN*) :0,1074
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+GATS1i:(alvaDesc) : Description not available in database
+
+MATS5i:(alvaDesc) : Description not available in database
+
+ATS8e:(alvaDesc) : Description not available in database
+
+MATS4p:(alvaDesc) : Description not available in database
+
+ATSC3p:(alvaDesc) : Description not available in database
+
+MATS6i:(alvaDesc) : Description not available in database
+
+ATS7i:(alvaDesc) : Description not available in database
+
+MATS1i:(alvaDesc) : Description not available in database
+
+JGI3:(alvaDesc) : Description not available in database
+
+MATS5m:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 4883) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5745(+/-0,0169)  +0,4161(+/-0,1615) MATS3i:(alvaDesc) +0,0048(+/-0,0033) ATSC3p:(alvaDesc) -0,1973(+/-0,271) MATS2i:(alvaDesc) -0,0414(+/-0,0101) MATS7m:(alvaDesc) +3,5866(+/-0,5314) JGI2:(alvaDesc) -0,3629(+/-0,0751) GATS2s:(alvaDesc) -0,1303(+/-0,1058) GATS3i:(alvaDesc) +0,1347(+/-0,1305) MATS4p:(alvaDesc) -0,4629(+/-0,129) MATS2v:(alvaDesc) +0,0014(+/-0,0164) MATS1m:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8171
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7401
+R2 Adjusted :0,7024
+SEE :0,0416
+Q2 :0,6564
+SDEP :0,0445
+Scaled Average rm2 LOO:0,5346
+Scaled Delta rm2 LOO:0,1853
+MAE (95% data;TRAIN*) :0,024
+SD (95% data;TRAIN*) :0,0292
+MAE+3*SD (95% data;TRAIN*) :0,1116
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+MATS3i:(alvaDesc) : Description not available in database
+
+ATSC3p:(alvaDesc) : Description not available in database
+
+MATS2i:(alvaDesc) : Description not available in database
+
+MATS7m:(alvaDesc) : Description not available in database
+
+JGI2:(alvaDesc) : Description not available in database
+
+GATS2s:(alvaDesc) : Description not available in database
+
+GATS3i:(alvaDesc) : Description not available in database
+
+MATS4p:(alvaDesc) : Description not available in database
+
+MATS2v:(alvaDesc) : Description not available in database
+
+MATS1m:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+ATSC3p:(alvaDesc) : JGI2:(alvaDesc) = 0,5241
+ATSC3p:(alvaDesc) : GATS2s:(alvaDesc) = 0,5619
+MATS2i:(alvaDesc) : GATS2s:(alvaDesc) = 0,5948
+MATS2i:(alvaDesc) : GATS3i:(alvaDesc) = 0,6119
+JGI2:(alvaDesc) : GATS2s:(alvaDesc) = 0,712
+JGI2:(alvaDesc) : GATS3i:(alvaDesc) = 0,7302
+GATS2s:(alvaDesc) : GATS3i:(alvaDesc) = 0,762
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 6909) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,573(+/-0,0166)  -0,2163(+/-0,1282) MATS4p:(alvaDesc) -0,0376(+/-0,0683) GATS2s:(alvaDesc) -0,6072(+/-0,2591) MATS2i:(alvaDesc) -0,1435(+/-0,0401) GATS2i:(alvaDesc) +0,0188(+/-0,0066) GATS7e:(alvaDesc) -0,0954(+/-0,1704) MATS4m:(alvaDesc) -0,0379(+/-0,0136) MATS7p:(alvaDesc) -0,075(+/-0,0246) MATS6i:(alvaDesc) +0,0094(+/-0,0018) ATSC1s:(alvaDesc) -0,3475(+/-0,069) MATS5i:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8466
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7518
+R2 Adjusted :0,7158
+SEE :0,0407
+Q2 :0,672
+SDEP :0,0434
+Scaled Average rm2 LOO:0,5551
+Scaled Delta rm2 LOO:0,1708
+MAE (95% data;TRAIN*) :0,0243
+SD (95% data;TRAIN*) :0,0277
+MAE+3*SD (95% data;TRAIN*) :0,1073
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+MATS4p:(alvaDesc) : Description not available in database
+
+GATS2s:(alvaDesc) : Description not available in database
+
+MATS2i:(alvaDesc) : Description not available in database
+
+GATS2i:(alvaDesc) : Description not available in database
+
+GATS7e:(alvaDesc) : Description not available in database
+
+MATS4m:(alvaDesc) : Description not available in database
+
+MATS7p:(alvaDesc) : Description not available in database
+
+MATS6i:(alvaDesc) : Description not available in database
+
+ATSC1s:(alvaDesc) : Description not available in database
+
+MATS5i:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+MATS4p:(alvaDesc) : MATS4m:(alvaDesc) = 0,6092
+GATS2s:(alvaDesc) : MATS2i:(alvaDesc) = 0,5948
+GATS2s:(alvaDesc) : GATS2i:(alvaDesc) = 0,5596
+################################# END OF RESULTS #################################
+

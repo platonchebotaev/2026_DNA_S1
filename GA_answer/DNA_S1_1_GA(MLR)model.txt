@@ -1,0 +1,587 @@
+GA-MLR (File Code: 9047) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,0039(+/-0,1808)  +0,0016(+/-0,0007) CENT:(alvaDesc) +0,1347(+/-0,0815) J_Dz(p):(alvaDesc) +0,5778(+/-0,1266) nHM:(alvaDesc) +0,0164(+/-0,0269) VE3sign_B(m):(alvaDesc) -0,0315(+/-0,0409) VE3sign_A:(alvaDesc) -0,1194(+/-0,0226) VE3sign_Dz(e):(alvaDesc) +0,1509(+/-0,0525) MAXDN:(alvaDesc) +0,3861(+/-0,5691) ChiA_B(s):(alvaDesc) -0,1089(+/-0,1056) VE1sign_B(s):(alvaDesc) -0,0035(+/-0,0011) ZM1V:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,767
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7236
+R2 Adjusted :0,6836
+SEE :0,0429
+Q2 :0,6407
+SDEP :0,0455
+Scaled Average rm2 LOO:0,5144
+Scaled Delta rm2 LOO:0,1982
+MAE (95% data;TRAIN*) :0,0284
+SD (95% data;TRAIN*) :0,0274
+MAE+3*SD (95% data;TRAIN*) :0,1107
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+CENT:(alvaDesc) : Description not available in database
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+nHM:(alvaDesc) : Description not available in database
+
+VE3sign_B(m):(alvaDesc) : Description not available in database
+
+VE3sign_A:(alvaDesc) : Description not available in database
+
+VE3sign_Dz(e):(alvaDesc) : Description not available in database
+
+MAXDN:(alvaDesc) : Description not available in database
+
+ChiA_B(s):(alvaDesc) : Description not available in database
+
+VE1sign_B(s):(alvaDesc) : Description not available in database
+
+ZM1V:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+CENT:(alvaDesc) : ZM1V:(alvaDesc) = 0,5814
+nHM:(alvaDesc) : VE3sign_Dz(e):(alvaDesc) = 0,5246
+nHM:(alvaDesc) : ZM1V:(alvaDesc) = 0,677
+VE3sign_B(m):(alvaDesc) : VE3sign_A:(alvaDesc) = 0,6907
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 5396) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = -101,7571(+/-14,1657)  -0,0902(+/-0,0217) VE3sign_Dz(e):(alvaDesc) +0,0018(+/-0,0001) ZM1V:(alvaDesc) +0,8549(+/-0,106) J_Dz(p):(alvaDesc) +0,8667(+/-0,2288) VE1sign_D/Dt:(alvaDesc) +102,7822(+/-14,0432) ChiA_X:(alvaDesc) -0,8339(+/-0,1821) VE1sign_D:(alvaDesc) +0,0973(+/-0,0703) VE1sign_A:(alvaDesc) +0,2137(+/-0,5503) ChiA_B(s):(alvaDesc) -0,0026(+/-0,0073) SpMax_B(s):(alvaDesc) -0,037(+/-0,0123) ATS6m:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,894
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,771
+R2 Adjusted :0,7378
+SEE :0,0391
+Q2 :0,7
+SDEP :0,0415
+Scaled Average rm2 LOO:0,5888
+Scaled Delta rm2 LOO:0,1694
+MAE (95% data;TRAIN*) :0,0258
+SD (95% data;TRAIN*) :0,0243
+MAE+3*SD (95% data;TRAIN*) :0,0987
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+VE3sign_Dz(e):(alvaDesc) : Description not available in database
+
+ZM1V:(alvaDesc) : Description not available in database
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+VE1sign_D/Dt:(alvaDesc) : Description not available in database
+
+ChiA_X:(alvaDesc) : Description not available in database
+
+VE1sign_D:(alvaDesc) : Description not available in database
+
+VE1sign_A:(alvaDesc) : Description not available in database
+
+ChiA_B(s):(alvaDesc) : Description not available in database
+
+SpMax_B(s):(alvaDesc) : Description not available in database
+
+ATS6m:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+ZM1V:(alvaDesc) : ATS6m:(alvaDesc) = 0,6972
+J_Dz(p):(alvaDesc) : ChiA_X:(alvaDesc) = 0,5375
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8221) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = -72,2076(+/-16,2594)  +0,6448(+/-0,1078) J_Dz(p):(alvaDesc) +0,0024(+/-0,0007) Se:(alvaDesc) +73,6276(+/-16,1348) ChiA_X:(alvaDesc) +0,047(+/-0,0115) nN:(alvaDesc) +0,0001(+/-0) ZM1Mad:(alvaDesc) +0,1696(+/-0,0176) nHM:(alvaDesc) -0,0407(+/-0,01) X0v:(alvaDesc) +0,0473(+/-0,01) MAXDP:(alvaDesc) +0,1605(+/-0,0971) Mv:(alvaDesc) -0,018(+/-0,0391) NNRS:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8957
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7684
+R2 Adjusted :0,7349
+SEE :0,0393
+Q2 :0,6962
+SDEP :0,0418
+Scaled Average rm2 LOO:0,5845
+Scaled Delta rm2 LOO:0,1674
+MAE (95% data;TRAIN*) :0,0248
+SD (95% data;TRAIN*) :0,0251
+MAE+3*SD (95% data;TRAIN*) :0,1001
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+Se:(alvaDesc) : Description not available in database
+
+ChiA_X:(alvaDesc) : Description not available in database
+
+nN:(alvaDesc) : Description not available in database
+
+ZM1Mad:(alvaDesc) : Description not available in database
+
+nHM:(alvaDesc) : Description not available in database
+
+X0v:(alvaDesc) : Description not available in database
+
+MAXDP:(alvaDesc) : Description not available in database
+
+Mv:(alvaDesc) : Description not available in database
+
+NNRS:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+J_Dz(p):(alvaDesc) : ChiA_X:(alvaDesc) = 0,5375
+Se:(alvaDesc) : ZM1Mad:(alvaDesc) = 0,5176
+ChiA_X:(alvaDesc) : nN:(alvaDesc) = 0,586
+ChiA_X:(alvaDesc) : X0v:(alvaDesc) = 0,5608
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 2627) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = -45,8399(+/-11,6601)  +0,7633(+/-0,1086) J_Dz(p):(alvaDesc) -0,1353(+/-0,0335) VE3sign_Dz(e):(alvaDesc) +0,0027(+/-0,0019) H_Dz(p):(alvaDesc) +0,1535(+/-0,0268) nHM:(alvaDesc) +47,1262(+/-11,5559) ChiA_X:(alvaDesc) +0,0868(+/-0,1261) VE1sign_D/Dt:(alvaDesc) +0,0003(+/-0,0001) ZM1Mad:(alvaDesc) -0,8457(+/-0,1597) X2Av:(alvaDesc) +0,2488(+/-0,0567) VE1sign_X:(alvaDesc) -0,0003(+/-0,0002) MW:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8843
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7891
+R2 Adjusted :0,7585
+SEE :0,0375
+Q2 :0,723
+SDEP :0,0399
+Scaled Average rm2 LOO:0,6177
+Scaled Delta rm2 LOO:0,1605
+MAE (95% data;TRAIN*) :0,0237
+SD (95% data;TRAIN*) :0,0266
+MAE+3*SD (95% data;TRAIN*) :0,1035
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+VE3sign_Dz(e):(alvaDesc) : Description not available in database
+
+H_Dz(p):(alvaDesc) : Description not available in database
+
+nHM:(alvaDesc) : Description not available in database
+
+ChiA_X:(alvaDesc) : Description not available in database
+
+VE1sign_D/Dt:(alvaDesc) : Description not available in database
+
+ZM1Mad:(alvaDesc) : Description not available in database
+
+X2Av:(alvaDesc) : Description not available in database
+
+VE1sign_X:(alvaDesc) : Description not available in database
+
+MW:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+J_Dz(p):(alvaDesc) : ChiA_X:(alvaDesc) = 0,5375
+J_Dz(p):(alvaDesc) : X2Av:(alvaDesc) = 0,5625
+VE3sign_Dz(e):(alvaDesc) : nHM:(alvaDesc) = 0,5246
+VE3sign_Dz(e):(alvaDesc) : ZM1Mad:(alvaDesc) = 0,5129
+VE3sign_Dz(e):(alvaDesc) : MW:(alvaDesc) = 0,5465
+H_Dz(p):(alvaDesc) : ChiA_X:(alvaDesc) = 0,6034
+ZM1Mad:(alvaDesc) : MW:(alvaDesc) = 0,8629
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 4954) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = -29,534(+/-7,6675)  +0,2276(+/-0,0229) nHM:(alvaDesc) +0,4913(+/-0,0704) J_Dz(p):(alvaDesc) +31,2773(+/-7,6179) ChiA_X:(alvaDesc) +0,0109(+/-0,009) ATS7m:(alvaDesc) +0,0016(+/-0,0006) CENT:(alvaDesc) +0,1198(+/-0,0697) VE1sign_X:(alvaDesc) +0,0225(+/-0,0065) DELS:(alvaDesc) -0,0034(+/-0,0008) ZM1Kup:(alvaDesc) -0,1067(+/-0,0213) VE3sign_Dz(e):(alvaDesc) +0,0505(+/-0,0175) VE3sign_Dz(v):(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8545
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7455
+R2 Adjusted :0,7086
+SEE :0,0412
+Q2 :0,6622
+SDEP :0,0441
+Scaled Average rm2 LOO:0,5419
+Scaled Delta rm2 LOO:0,1817
+MAE (95% data;TRAIN*) :0,0267
+SD (95% data;TRAIN*) :0,0252
+MAE+3*SD (95% data;TRAIN*) :0,1023
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+nHM:(alvaDesc) : Description not available in database
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+ChiA_X:(alvaDesc) : Description not available in database
+
+ATS7m:(alvaDesc) : Description not available in database
+
+CENT:(alvaDesc) : Description not available in database
+
+VE1sign_X:(alvaDesc) : Description not available in database
+
+DELS:(alvaDesc) : Description not available in database
+
+ZM1Kup:(alvaDesc) : Description not available in database
+
+VE3sign_Dz(e):(alvaDesc) : Description not available in database
+
+VE3sign_Dz(v):(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+nHM:(alvaDesc) : VE3sign_Dz(e):(alvaDesc) = 0,5246
+J_Dz(p):(alvaDesc) : ChiA_X:(alvaDesc) = 0,5375
+ChiA_X:(alvaDesc) : DELS:(alvaDesc) = 0,5702
+CENT:(alvaDesc) : DELS:(alvaDesc) = 0,7385
+CENT:(alvaDesc) : ZM1Kup:(alvaDesc) = 0,8621
+DELS:(alvaDesc) : ZM1Kup:(alvaDesc) = 0,8132
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1273) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = -88,0291(+/-16,3847)  +89,2162(+/-16,2315) ChiA_X:(alvaDesc) +0,0017(+/-0,0003) ZM1V:(alvaDesc) -0,0854(+/-0,0387) VE3sign_Dz(e):(alvaDesc) -0,0268(+/-0,0116) ATS6m:(alvaDesc) +0,7761(+/-0,1149) J_Dz(p):(alvaDesc) -0,062(+/-0,1077) VE1sign_Dz(i):(alvaDesc) -0,6365(+/-0,2447) VE1sign_D:(alvaDesc) +0,6618(+/-0,2304) VE1sign_D/Dt:(alvaDesc) +0,0312(+/-0,0212) VE3sign_B(m):(alvaDesc) -0,0132(+/-0,0179) VE3sign_B(e):(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8894
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7707
+R2 Adjusted :0,7374
+SEE :0,0391
+Q2 :0,6807
+SDEP :0,0429
+Scaled Average rm2 LOO:0,5671
+Scaled Delta rm2 LOO:0,1589
+MAE (95% data;TRAIN*) :0,0259
+SD (95% data;TRAIN*) :0,0244
+MAE+3*SD (95% data;TRAIN*) :0,0992
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+ChiA_X:(alvaDesc) : Description not available in database
+
+ZM1V:(alvaDesc) : Description not available in database
+
+VE3sign_Dz(e):(alvaDesc) : Description not available in database
+
+ATS6m:(alvaDesc) : Description not available in database
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+VE1sign_Dz(i):(alvaDesc) : Description not available in database
+
+VE1sign_D:(alvaDesc) : Description not available in database
+
+VE1sign_D/Dt:(alvaDesc) : Description not available in database
+
+VE3sign_B(m):(alvaDesc) : Description not available in database
+
+VE3sign_B(e):(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+ChiA_X:(alvaDesc) : J_Dz(p):(alvaDesc) = 0,5375
+ZM1V:(alvaDesc) : ATS6m:(alvaDesc) = 0,6972
+ZM1V:(alvaDesc) : VE1sign_Dz(i):(alvaDesc) = 0,5695
+ATS6m:(alvaDesc) : VE1sign_Dz(i):(alvaDesc) = 0,5418
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 6854) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = -99,5616(+/-13,8612)  +0,0017(+/-0,0002) ZM1V:(alvaDesc) -0,1294(+/-0,03) VE3sign_Dz(e):(alvaDesc) +0,782(+/-0,1033) J_Dz(p):(alvaDesc) +0(+/-0) ZM1Mad:(alvaDesc) +0,0253(+/-0,0122) VE3sign_Dz(v):(alvaDesc) -1,1043(+/-0,155) VE1sign_D:(alvaDesc) -0,0155(+/-0,0066) ATS7m:(alvaDesc) +100,7449(+/-13,7283) ChiA_X:(alvaDesc) +0,8068(+/-0,2103) VE1sign_D/Dt:(alvaDesc) +0,0152(+/-0,0112) VE3sign_B(i):(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9133
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7845
+R2 Adjusted :0,7533
+SEE :0,0379
+Q2 :0,7088
+SDEP :0,0409
+Scaled Average rm2 LOO:0,6008
+Scaled Delta rm2 LOO:0,1585
+MAE (95% data;TRAIN*) :0,0239
+SD (95% data;TRAIN*) :0,0252
+MAE+3*SD (95% data;TRAIN*) :0,0994
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+ZM1V:(alvaDesc) : Description not available in database
+
+VE3sign_Dz(e):(alvaDesc) : Description not available in database
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+ZM1Mad:(alvaDesc) : Description not available in database
+
+VE3sign_Dz(v):(alvaDesc) : Description not available in database
+
+VE1sign_D:(alvaDesc) : Description not available in database
+
+ATS7m:(alvaDesc) : Description not available in database
+
+ChiA_X:(alvaDesc) : Description not available in database
+
+VE1sign_D/Dt:(alvaDesc) : Description not available in database
+
+VE3sign_B(i):(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+VE3sign_Dz(e):(alvaDesc) : ZM1Mad:(alvaDesc) = 0,5129
+J_Dz(p):(alvaDesc) : ChiA_X:(alvaDesc) = 0,5375
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8615) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = -32,5164(+/-14,285)  +0,0264(+/-0,0275) VE3sign_Dz(Z):(alvaDesc) +0,7086(+/-0,1266) J_Dz(p):(alvaDesc) -0,0469(+/-0,0081) VE3sign_B(e):(alvaDesc) +0,0336(+/-0,0112) VE3sign_Dz(v):(alvaDesc) +0,0502(+/-0,1958) VE2sign_B(s):(alvaDesc) +34,0499(+/-14,1562) ChiA_X:(alvaDesc) +0,057(+/-0,0114) S2K:(alvaDesc) +0,1348(+/-0,0792) DECC:(alvaDesc) +0,1771(+/-0,0306) VE3sign_X:(alvaDesc) -0,2568(+/-0,0522) NNRS:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8197
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7452
+R2 Adjusted :0,7083
+SEE :0,0412
+Q2 :0,6577
+SDEP :0,0444
+Scaled Average rm2 LOO:0,537
+Scaled Delta rm2 LOO:0,1801
+MAE (95% data;TRAIN*) :0,027
+SD (95% data;TRAIN*) :0,0264
+MAE+3*SD (95% data;TRAIN*) :0,1063
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+VE3sign_Dz(Z):(alvaDesc) : Description not available in database
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+VE3sign_B(e):(alvaDesc) : Description not available in database
+
+VE3sign_Dz(v):(alvaDesc) : Description not available in database
+
+VE2sign_B(s):(alvaDesc) : Description not available in database
+
+ChiA_X:(alvaDesc) : Description not available in database
+
+S2K:(alvaDesc) : Description not available in database
+
+DECC:(alvaDesc) : Description not available in database
+
+VE3sign_X:(alvaDesc) : Description not available in database
+
+NNRS:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+J_Dz(p):(alvaDesc) : ChiA_X:(alvaDesc) = 0,5375
+J_Dz(p):(alvaDesc) : DECC:(alvaDesc) = 0,532
+S2K:(alvaDesc) : DECC:(alvaDesc) = 0,6435
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8886) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = -41,5586(+/-14,8099)  -0,0203(+/-0,0114) X3v:(alvaDesc) +0,3631(+/-0,0983) J_Dz(p):(alvaDesc) +0,0001(+/-0,0001) ZM1Mad:(alvaDesc) +43,2892(+/-14,7176) ChiA_X:(alvaDesc) -0,1416(+/-0,0506) SM1_Dz(i):(alvaDesc) -0,009(+/-0,0021) SpDiam_B(m):(alvaDesc) +0,22(+/-0,0449) MAXDN:(alvaDesc) +0,0012(+/-0,0003) ZM1V:(alvaDesc) -0,1261(+/-0,0225) nO:(alvaDesc) -0,1789(+/-0,0892) VE1sign_Dz(i):(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,867
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,785
+R2 Adjusted :0,7538
+SEE :0,0379
+Q2 :0,7137
+SDEP :0,0406
+Scaled Average rm2 LOO:0,6066
+Scaled Delta rm2 LOO:0,1594
+MAE (95% data;TRAIN*) :0,0245
+SD (95% data;TRAIN*) :0,0266
+MAE+3*SD (95% data;TRAIN*) :0,1043
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+X3v:(alvaDesc) : Description not available in database
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+ZM1Mad:(alvaDesc) : Description not available in database
+
+ChiA_X:(alvaDesc) : Description not available in database
+
+SM1_Dz(i):(alvaDesc) : Description not available in database
+
+SpDiam_B(m):(alvaDesc) : Description not available in database
+
+MAXDN:(alvaDesc) : Description not available in database
+
+ZM1V:(alvaDesc) : Description not available in database
+
+nO:(alvaDesc) : Description not available in database
+
+VE1sign_Dz(i):(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+X3v:(alvaDesc) : ChiA_X:(alvaDesc) = 0,7234
+J_Dz(p):(alvaDesc) : ChiA_X:(alvaDesc) = 0,5375
+ZM1Mad:(alvaDesc) : SpDiam_B(m):(alvaDesc) = 0,7115
+MAXDN:(alvaDesc) : nO:(alvaDesc) = 0,5021
+ZM1V:(alvaDesc) : VE1sign_Dz(i):(alvaDesc) = 0,5695
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 9194) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = -47,0131(+/-13,6349)  +0,6451(+/-0,1138) J_Dz(p):(alvaDesc) +0,0093(+/-0,0151) VE3sign_D/Dt:(alvaDesc) -0,0072(+/-0,0035) D/Dtr06:(alvaDesc) +0,1626(+/-0,0307) nHM:(alvaDesc) +0,1525(+/-0,0728) VE1sign_X:(alvaDesc) -0,1123(+/-0,0299) VE3sign_Dz(e):(alvaDesc) -0,0357(+/-0,046) SM1_Dz(i):(alvaDesc) +0,0121(+/-0,0062) DELS:(alvaDesc) +48,4313(+/-13,4922) ChiA_X:(alvaDesc) +0,0486(+/-0,2294) CIC4:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8484
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7554
+R2 Adjusted :0,7199
+SEE :0,0404
+Q2 :0,6769
+SDEP :0,0431
+Scaled Average rm2 LOO:0,5608
+Scaled Delta rm2 LOO:0,1718
+MAE (95% data;TRAIN*) :0,026
+SD (95% data;TRAIN*) :0,0261
+MAE+3*SD (95% data;TRAIN*) :0,1043
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+J_Dz(p):(alvaDesc) : Description not available in database
+
+VE3sign_D/Dt:(alvaDesc) : Description not available in database
+
+D/Dtr06:(alvaDesc) : Description not available in database
+
+nHM:(alvaDesc) : Description not available in database
+
+VE1sign_X:(alvaDesc) : Description not available in database
+
+VE3sign_Dz(e):(alvaDesc) : Description not available in database
+
+SM1_Dz(i):(alvaDesc) : Description not available in database
+
+DELS:(alvaDesc) : Description not available in database
+
+ChiA_X:(alvaDesc) : Description not available in database
+
+CIC4:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+J_Dz(p):(alvaDesc) : VE3sign_D/Dt:(alvaDesc) = 0,5151
+J_Dz(p):(alvaDesc) : D/Dtr06:(alvaDesc) = 0,5136
+J_Dz(p):(alvaDesc) : ChiA_X:(alvaDesc) = 0,5375
+J_Dz(p):(alvaDesc) : CIC4:(alvaDesc) = 0,5399
+VE3sign_D/Dt:(alvaDesc) : D/Dtr06:(alvaDesc) = 0,5124
+D/Dtr06:(alvaDesc) : DELS:(alvaDesc) = 0,5717
+D/Dtr06:(alvaDesc) : CIC4:(alvaDesc) = 0,5984
+nHM:(alvaDesc) : VE3sign_Dz(e):(alvaDesc) = 0,5246
+SM1_Dz(i):(alvaDesc) : DELS:(alvaDesc) = 0,519
+DELS:(alvaDesc) : ChiA_X:(alvaDesc) = 0,5702
+################################# END OF RESULTS #################################
+

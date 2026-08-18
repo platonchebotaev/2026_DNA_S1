@@ -1,0 +1,662 @@
+{
+  "datetime": "2026-05-19T22:40:34.679114",
+  "random_state": 42,
+  "run_mode": "hourly",
+  "results_dir": "results_QSPR_QSAR_LogS1_20260519_22",
+  "fast_mode": false,
+  "external_test_ids": [
+    50,
+    31,
+    65,
+    81,
+    8,
+    35,
+    49,
+    76,
+    18,
+    54,
+    92,
+    44,
+    66,
+    97,
+    20,
+    12,
+    27,
+    37,
+    59,
+    72
+  ],
+  "settings": {
+    "DO_CORRELATION_FILTERING": true,
+    "CORRELATION_CUTOFF": 0.95,
+    "DO_VIF_FILTERING": false,
+    "VIF_CUTOFF": 10.0,
+    "TOP_N_MODELS": 3,
+    "N_OPTUNA_TRIALS": 40,
+    "N_REPEATS_CV": 20,
+    "N_SPLITS_CV": 5,
+    "N_Y_RANDOMIZATION": 300,
+    "N_BOOTSTRAP": 500,
+    "N_MONTE_CARLO_SPLITS": 300,
+    "MAX_MODELS_FOR_ROBUST_RANKING": 10
+  },
+  "python": "3.12.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.2",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "optuna": "4.8.0",
+    "shap": "0.51.0",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.10",
+    "lazypredict": "0.2.16",
+    "statsmodels": "0.14.6",
+    "joblib": "1.5.3",
+    "openpyxl": "3.1.5"
+  },
+  "warnings": [
+    "Correlation filtering is ON. Removed 4 features using train-only cutoff 0.95.",
+    "Model screening failed for LightGBM__global_robust_subset__rank_top_10: Do not support special JSON characters in feature name.",
+    "Model screening failed for LightGBM__model_specific_best_subset__rank_top_5: Do not support special JSON characters in feature name."
+  ],
+  "summary_workbook": "results_QSPR_QSAR_LogS1_20260519_22\\summary_tables.xlsx",
+  "automatic_report": "results_QSPR_QSAR_LogS1_20260519_22\\report\\automatic_qspr_report.md",
+  "top3_model_keys": [
+    "GaussianProcess__global_robust_subset__rank_top_10",
+    "GaussianProcess__model_specific_best_subset__rank_top_8",
+    "Ridge__model_specific_best_subset__rfe_subset"
+  ],
+  "global_robust_subset_name": "rank_top_10",
+  "global_robust_features": [
+    "Chemical_softness",
+    "Koopmans_IP",
+    "ZM1Mad:(alvaDesc)",
+    "Se1Cu2Ag1s:(OEstate)",
+    "QED:(alvaDesc)",
+    "SsCu:(OEstate)",
+    "Koopmans_EA",
+    "Mor25e:(alvaDesc)",
+    "Se1C2N2ss:(OEstate)",
+    "RDF055p:(alvaDesc)"
+  ],
+  "model_configs": {
+    "MLR__global_robust_subset__rank_top_10": {
+      "model_name": "MLR",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {},
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "MLR__model_specific_best_subset__rank_top_8": {
+      "model_name": "MLR",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_8",
+      "best_params": {},
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)"
+      ]
+    },
+    "PLS__global_robust_subset__rank_top_10": {
+      "model_name": "PLS",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "n_components": 9
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "PLS__model_specific_best_subset__rank_top_8": {
+      "model_name": "PLS",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_8",
+      "best_params": {
+        "n_components": 7
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)"
+      ]
+    },
+    "Ridge__global_robust_subset__rank_top_10": {
+      "model_name": "Ridge",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "alpha": 1.0346466405186527e-05
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "Ridge__model_specific_best_subset__rfe_subset": {
+      "model_name": "Ridge",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rfe_subset",
+      "best_params": {
+        "alpha": 0.061167081791099684
+      },
+      "features": [
+        "Chemical_softness",
+        "E2u:(alvaDesc)",
+        "Electrophilicity_index",
+        "F05[N-X]:(alvaDesc)",
+        "Koopmans_EA",
+        "Koopmans_IP",
+        "Mor02p:(alvaDesc)",
+        "Mor10s:(alvaDesc)",
+        "Mor16v:(alvaDesc)",
+        "Mor26u:(alvaDesc)",
+        "P2p:(alvaDesc)",
+        "QED:(alvaDesc)",
+        "QEDu:(alvaDesc)",
+        "RDF060u:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "Se1Cu1Cu2s:(OEstate)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "SsCu:(OEstate)",
+        "ZM1Mad:(alvaDesc)",
+        "s4_numRotBonds:(alvaDesc)"
+      ]
+    },
+    "LASSO__global_robust_subset__rank_top_10": {
+      "model_name": "LASSO",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "alpha": 1.0258740374781586e-05
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "LASSO__model_specific_best_subset__rank_top_8": {
+      "model_name": "LASSO",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_8",
+      "best_params": {
+        "alpha": 1.0258740374781586e-05
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)"
+      ]
+    },
+    "ElasticNet__global_robust_subset__rank_top_10": {
+      "model_name": "ElasticNet",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "alpha": 1.2907283648328933e-05,
+        "l1_ratio": 0.061859059217006296
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "ElasticNet__model_specific_best_subset__rank_top_8": {
+      "model_name": "ElasticNet",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_8",
+      "best_params": {
+        "alpha": 1.2907283648328933e-05,
+        "l1_ratio": 0.061859059217006296
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)"
+      ]
+    },
+    "SVR__global_robust_subset__rank_top_10": {
+      "model_name": "SVR",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "C": 65.87747950724103,
+        "epsilon": 0.004755400495152446,
+        "kernel": "rbf",
+        "gamma": 0.0056886558913491194
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "RandomForest__global_robust_subset__rank_top_10": {
+      "model_name": "RandomForest",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "n_estimators": 707,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "max_features": 0.9880006978671333
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "RandomForest__model_specific_best_subset__rank_top_5": {
+      "model_name": "RandomForest",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_5",
+      "best_params": {
+        "n_estimators": 707,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "max_features": 0.9880006978671333
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)"
+      ]
+    },
+    "ExtraTrees__global_robust_subset__rank_top_10": {
+      "model_name": "ExtraTrees",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "n_estimators": 518,
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "min_samples_split": 4,
+        "max_features": 0.8728838845667218
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "ExtraTrees__model_specific_best_subset__shap_subset": {
+      "model_name": "ExtraTrees",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "shap_subset",
+      "best_params": {
+        "n_estimators": 779,
+        "max_depth": 6,
+        "min_samples_leaf": 1,
+        "min_samples_split": 7,
+        "max_features": 0.9533415517274074
+      },
+      "features": [
+        "Chemical_softness",
+        "nHM:(alvaDesc)",
+        "Koopmans_IP",
+        "SsCu:(OEstate)",
+        "GATS1i:(alvaDesc)",
+        "Mor25e:(alvaDesc)",
+        "ZM1V:(alvaDesc)",
+        "SsAg:(OEstate)",
+        "FINAL_SINGLE_POINT_ENERGY",
+        "VE3sign_Dz(e):(alvaDesc)",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "J_Dz(p):(alvaDesc)",
+        "TDB07s:(alvaDesc)",
+        "QED:(alvaDesc)",
+        "RDF060u:(alvaDesc)",
+        "Dipole_moment",
+        "QEDu:(alvaDesc)",
+        "RDF055p:(alvaDesc)",
+        "MATS3i:(alvaDesc)"
+      ]
+    },
+    "GradientBoosting__global_robust_subset__rank_top_10": {
+      "model_name": "GradientBoosting",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "n_estimators": 700,
+        "learning_rate": 0.020117332692514586,
+        "max_depth": 2,
+        "subsample": 0.8323224808057974,
+        "min_samples_leaf": 2
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "GradientBoosting__model_specific_best_subset__rank_top_8": {
+      "model_name": "GradientBoosting",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_8",
+      "best_params": {
+        "n_estimators": 366,
+        "learning_rate": 0.04565234599327976,
+        "max_depth": 3,
+        "subsample": 0.6973785525408801,
+        "min_samples_leaf": 2
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)"
+      ]
+    },
+    "XGBoost__global_robust_subset__rank_top_10": {
+      "model_name": "XGBoost",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "n_estimators": 617,
+        "max_depth": 4,
+        "learning_rate": 0.06813099824138592,
+        "subsample": 0.5102922471479012,
+        "colsample_bytree": 0.9849549260809971,
+        "reg_lambda": 9.877700294007917,
+        "reg_alpha": 3.06459984124115e-05
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "XGBoost__model_specific_best_subset__rank_top_12": {
+      "model_name": "XGBoost",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_12",
+      "best_params": {
+        "n_estimators": 697,
+        "max_depth": 4,
+        "learning_rate": 0.19601354901736392,
+        "subsample": 0.5021731139239561,
+        "colsample_bytree": 0.8166719134050416,
+        "reg_lambda": 3.7461511660644127,
+        "reg_alpha": 5.112551402107966e-05
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)",
+        "TDB07s:(alvaDesc)",
+        "Se1Cu1Cu2s:(OEstate)"
+      ]
+    },
+    "CatBoost__global_robust_subset__rank_top_10": {
+      "model_name": "CatBoost",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "iterations": 794,
+        "depth": 3,
+        "learning_rate": 0.0195326782723487,
+        "l2_leaf_reg": 0.017658253397659293
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "GaussianProcess__global_robust_subset__rank_top_10": {
+      "model_name": "GaussianProcess",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "alpha": 2.840088617986703e-07,
+        "length_scale": 0.7821846444899156,
+        "noise_level": 0.0001321183842891056
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "GaussianProcess__model_specific_best_subset__rank_top_8": {
+      "model_name": "GaussianProcess",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_8",
+      "best_params": {
+        "alpha": 2.5142139485342745e-07,
+        "length_scale": 0.3258213703430047,
+        "noise_level": 0.20689155217944594
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)"
+      ]
+    },
+    "KNN__global_robust_subset__rank_top_10": {
+      "model_name": "KNN",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "n_neighbors": 3,
+        "weights": "distance",
+        "p": 1
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "KNN__model_specific_best_subset__rank_top_8": {
+      "model_name": "KNN",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_8",
+      "best_params": {
+        "n_neighbors": 3,
+        "weights": "distance",
+        "p": 1
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)"
+      ]
+    },
+    "AdaBoost__global_robust_subset__rank_top_10": {
+      "model_name": "AdaBoost",
+      "feature_mode": "global_robust_subset",
+      "subset_name": "rank_top_10",
+      "best_params": {
+        "max_depth": 5,
+        "n_estimators": 513,
+        "learning_rate": 0.13361574924935446
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)",
+        "Se1C2N2ss:(OEstate)",
+        "RDF055p:(alvaDesc)"
+      ]
+    },
+    "AdaBoost__model_specific_best_subset__rank_top_8": {
+      "model_name": "AdaBoost",
+      "feature_mode": "model_specific_best_subset",
+      "subset_name": "rank_top_8",
+      "best_params": {
+        "max_depth": 5,
+        "n_estimators": 345,
+        "learning_rate": 0.25095061580132355
+      },
+      "features": [
+        "Chemical_softness",
+        "Koopmans_IP",
+        "ZM1Mad:(alvaDesc)",
+        "Se1Cu2Ag1s:(OEstate)",
+        "QED:(alvaDesc)",
+        "SsCu:(OEstate)",
+        "Koopmans_EA",
+        "Mor25e:(alvaDesc)"
+      ]
+    }
+  }
+}

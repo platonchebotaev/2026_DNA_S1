@@ -1,0 +1,766 @@
+GA-MLR (File Code: 3998) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5793(+/-0,015)  -0,3168(+/-0,0568) H1v:(alvaDesc) +0,3315(+/-0,041) HATS5p:(alvaDesc) -0(+/-0,0033) H0s:(alvaDesc) +0,009(+/-0,0036) H0p:(alvaDesc) -3,3612(+/-0,7948) H7v:(alvaDesc) -0,0341(+/-0,0116) H6s:(alvaDesc) -0,1132(+/-0,044) H2p:(alvaDesc) -1,3779(+/-0,4125) R2u+:(alvaDesc) +0,2444(+/-0,2512) R3p+:(alvaDesc) +0,0493(+/-0,0155) HATS4s:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8492
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,795
+R2 Adjusted :0,7653
+SEE :0,037
+Q2 :0,7011
+SDEP :0,0415
+Scaled Average rm2 LOO:0,5901
+Scaled Delta rm2 LOO:0,1682
+MAE (95% data;TRAIN*) :0,0244
+SD (95% data;TRAIN*) :0,0274
+MAE+3*SD (95% data;TRAIN*) :0,1067
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+H1v:(alvaDesc) : Description not available in database
+
+HATS5p:(alvaDesc) : Description not available in database
+
+H0s:(alvaDesc) : Description not available in database
+
+H0p:(alvaDesc) : Description not available in database
+
+H7v:(alvaDesc) : Description not available in database
+
+H6s:(alvaDesc) : Description not available in database
+
+H2p:(alvaDesc) : Description not available in database
+
+R2u+:(alvaDesc) : Description not available in database
+
+R3p+:(alvaDesc) : Description not available in database
+
+HATS4s:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+H1v:(alvaDesc) : HATS5p:(alvaDesc) = 0,6146
+H1v:(alvaDesc) : R2u+:(alvaDesc) = 0,6151
+HATS5p:(alvaDesc) : H0p:(alvaDesc) = 0,7188
+HATS5p:(alvaDesc) : H2p:(alvaDesc) = 0,5191
+H0s:(alvaDesc) : HATS4s:(alvaDesc) = 0,7671
+H0p:(alvaDesc) : H2p:(alvaDesc) = 0,5029
+H0p:(alvaDesc) : R3p+:(alvaDesc) = 0,626
+H2p:(alvaDesc) : R3p+:(alvaDesc) = 0,6064
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 6276) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5824(+/-0,015)  -1,1791(+/-0,2941) R2u+:(alvaDesc) +0,016(+/-0,0061) R1p:(alvaDesc) -1,8928(+/-0,1935) R5v:(alvaDesc) -0,5807(+/-0,3401) H4v:(alvaDesc) +0,3368(+/-0,0826) H4p:(alvaDesc) +0,6105(+/-0,2977) R3p+:(alvaDesc) -0,0424(+/-0,0264) HATS7m:(alvaDesc) +0,026(+/-0,0067) HATS0s:(alvaDesc) +1,1897(+/-0,223) HATS5v:(alvaDesc) +1,0689(+/-0,3038) R6v:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9127
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7894
+R2 Adjusted :0,7588
+SEE :0,0375
+Q2 :0,7164
+SDEP :0,0404
+Scaled Average rm2 LOO:0,6124
+Scaled Delta rm2 LOO:0,1385
+MAE (95% data;TRAIN*) :0,0247
+SD (95% data;TRAIN*) :0,0245
+MAE+3*SD (95% data;TRAIN*) :0,0981
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+R2u+:(alvaDesc) : Description not available in database
+
+R1p:(alvaDesc) : Description not available in database
+
+R5v:(alvaDesc) : Description not available in database
+
+H4v:(alvaDesc) : Description not available in database
+
+H4p:(alvaDesc) : Description not available in database
+
+R3p+:(alvaDesc) : Description not available in database
+
+HATS7m:(alvaDesc) : Description not available in database
+
+HATS0s:(alvaDesc) : Description not available in database
+
+HATS5v:(alvaDesc) : Description not available in database
+
+R6v:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+R5v:(alvaDesc) : H4v:(alvaDesc) = 0,7035
+R5v:(alvaDesc) : H4p:(alvaDesc) = 0,5966
+R5v:(alvaDesc) : R3p+:(alvaDesc) = 0,5279
+R5v:(alvaDesc) : HATS5v:(alvaDesc) = 0,8879
+R5v:(alvaDesc) : R6v:(alvaDesc) = 0,7684
+H4v:(alvaDesc) : H4p:(alvaDesc) = 0,8602
+H4v:(alvaDesc) : R3p+:(alvaDesc) = 0,5673
+H4v:(alvaDesc) : HATS5v:(alvaDesc) = 0,6313
+H4v:(alvaDesc) : R6v:(alvaDesc) = 0,5469
+H4p:(alvaDesc) : R3p+:(alvaDesc) = 0,7518
+H4p:(alvaDesc) : HATS5v:(alvaDesc) = 0,5168
+HATS5v:(alvaDesc) : R6v:(alvaDesc) = 0,6902
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 3042) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5786(+/-0,0145)  -0,0335(+/-0,0101) H6s:(alvaDesc) +0,2623(+/-0,0289) HATS4p:(alvaDesc) -0,2657(+/-0,0672) H1v:(alvaDesc) -1,1549(+/-0,7336) H7v:(alvaDesc) -0,0238(+/-0,0141) H1s:(alvaDesc) +0,2525(+/-0,0334) HATS6p:(alvaDesc) +0,0527(+/-0,0373) HATS1s:(alvaDesc) +0,0504(+/-0,0127) HATS4s:(alvaDesc) -1,5646(+/-0,3695) R2u+:(alvaDesc) -0,0329(+/-0,0066) H5m:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9158
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,8057
+R2 Adjusted :0,7775
+SEE :0,036
+Q2 :0,7219
+SDEP :0,04
+Scaled Average rm2 LOO:0,6173
+Scaled Delta rm2 LOO:0,1518
+MAE (95% data;TRAIN*) :0,024
+SD (95% data;TRAIN*) :0,025
+MAE+3*SD (95% data;TRAIN*) :0,099
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+H6s:(alvaDesc) : Description not available in database
+
+HATS4p:(alvaDesc) : Description not available in database
+
+H1v:(alvaDesc) : Description not available in database
+
+H7v:(alvaDesc) : Description not available in database
+
+H1s:(alvaDesc) : Description not available in database
+
+HATS6p:(alvaDesc) : Description not available in database
+
+HATS1s:(alvaDesc) : Description not available in database
+
+HATS4s:(alvaDesc) : Description not available in database
+
+R2u+:(alvaDesc) : Description not available in database
+
+H5m:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+HATS4p:(alvaDesc) : H1v:(alvaDesc) = 0,5195
+HATS4p:(alvaDesc) : HATS4s:(alvaDesc) = 0,5353
+H1v:(alvaDesc) : H1s:(alvaDesc) = 0,7586
+H1v:(alvaDesc) : R2u+:(alvaDesc) = 0,6151
+H1s:(alvaDesc) : HATS1s:(alvaDesc) = 0,6554
+H1s:(alvaDesc) : HATS4s:(alvaDesc) = 0,7709
+H1s:(alvaDesc) : R2u+:(alvaDesc) = 0,6187
+HATS1s:(alvaDesc) : HATS4s:(alvaDesc) = 0,5179
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1522) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5793(+/-0,0152)  -2,5664(+/-0,3826) R2u+:(alvaDesc) +0,4696(+/-0,0806) HATS5p:(alvaDesc) -0,3133(+/-0,1238) R5p:(alvaDesc) +0,2974(+/-0,0405) H4p:(alvaDesc) -0,0177(+/-0,0105) HATS5m:(alvaDesc) +0,2473(+/-0,0648) R6p:(alvaDesc) -1,2777(+/-0,8215) R3v+:(alvaDesc) -0,8911(+/-0,1839) R5v:(alvaDesc) +1,5639(+/-0,7038) R6i+:(alvaDesc) +0,609(+/-0,1049) R1u+:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9302
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7852
+R2 Adjusted :0,7541
+SEE :0,0378
+Q2 :0,7067
+SDEP :0,0411
+Scaled Average rm2 LOO:0,5992
+Scaled Delta rm2 LOO:0,1498
+MAE (95% data;TRAIN*) :0,0242
+SD (95% data;TRAIN*) :0,0241
+MAE+3*SD (95% data;TRAIN*) :0,0967
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+R2u+:(alvaDesc) : Description not available in database
+
+HATS5p:(alvaDesc) : Description not available in database
+
+R5p:(alvaDesc) : Description not available in database
+
+H4p:(alvaDesc) : Description not available in database
+
+HATS5m:(alvaDesc) : Description not available in database
+
+R6p:(alvaDesc) : Description not available in database
+
+R3v+:(alvaDesc) : Description not available in database
+
+R5v:(alvaDesc) : Description not available in database
+
+R6i+:(alvaDesc) : Description not available in database
+
+R1u+:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+R2u+:(alvaDesc) : R6i+:(alvaDesc) = 0,6991
+HATS5p:(alvaDesc) : R5p:(alvaDesc) = 0,8912
+HATS5p:(alvaDesc) : R6p:(alvaDesc) = 0,5707
+HATS5p:(alvaDesc) : R5v:(alvaDesc) = 0,6606
+R5p:(alvaDesc) : H4p:(alvaDesc) = 0,5415
+R5p:(alvaDesc) : R6p:(alvaDesc) = 0,7381
+R5p:(alvaDesc) : R5v:(alvaDesc) = 0,831
+H4p:(alvaDesc) : R5v:(alvaDesc) = 0,5966
+HATS5m:(alvaDesc) : R5v:(alvaDesc) = 0,53
+R6p:(alvaDesc) : R5v:(alvaDesc) = 0,5493
+R3v+:(alvaDesc) : R6i+:(alvaDesc) = 0,5627
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1261) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5818(+/-0,0145)  -0,0707(+/-0,0155) H6s:(alvaDesc) +2,0018(+/-0,6107) R4u+:(alvaDesc) +0,0338(+/-0,0451) H4p:(alvaDesc) -2,8108(+/-0,3205) R2u+:(alvaDesc) -3,3394(+/-0,9448) R6u+:(alvaDesc) +0,1163(+/-0,0225) HATS5s:(alvaDesc) +0,2773(+/-0,0286) HATS5p:(alvaDesc) -0,8748(+/-0,1469) R5v:(alvaDesc) +0,3092(+/-0,0894) R1v+:(alvaDesc) +0,2311(+/-0,0447) HATS7p:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9838
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,8072
+R2 Adjusted :0,7792
+SEE :0,0359
+Q2 :0,7545
+SDEP :0,0376
+Scaled Average rm2 LOO:0,6597
+Scaled Delta rm2 LOO:0,1355
+MAE (95% data;TRAIN*) :0,0224
+SD (95% data;TRAIN*) :0,0235
+MAE+3*SD (95% data;TRAIN*) :0,093
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+H6s:(alvaDesc) : Description not available in database
+
+R4u+:(alvaDesc) : Description not available in database
+
+H4p:(alvaDesc) : Description not available in database
+
+R2u+:(alvaDesc) : Description not available in database
+
+R6u+:(alvaDesc) : Description not available in database
+
+HATS5s:(alvaDesc) : Description not available in database
+
+HATS5p:(alvaDesc) : Description not available in database
+
+R5v:(alvaDesc) : Description not available in database
+
+R1v+:(alvaDesc) : Description not available in database
+
+HATS7p:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+R4u+:(alvaDesc) : H4p:(alvaDesc) = 0,5578
+R4u+:(alvaDesc) : R2u+:(alvaDesc) = 0,6211
+R4u+:(alvaDesc) : R6u+:(alvaDesc) = 0,7701
+R4u+:(alvaDesc) : HATS5s:(alvaDesc) = 0,6836
+H4p:(alvaDesc) : HATS5s:(alvaDesc) = 0,585
+H4p:(alvaDesc) : R5v:(alvaDesc) = 0,5966
+R6u+:(alvaDesc) : HATS5s:(alvaDesc) = 0,7239
+R6u+:(alvaDesc) : R5v:(alvaDesc) = 0,6085
+HATS5s:(alvaDesc) : HATS5p:(alvaDesc) = 0,6092
+HATS5s:(alvaDesc) : R5v:(alvaDesc) = 0,6565
+HATS5p:(alvaDesc) : R5v:(alvaDesc) = 0,6606
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 6536) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5813(+/-0,0147)  -0,2344(+/-0,0714) H1v:(alvaDesc) +0,0172(+/-0,0031) H0p:(alvaDesc) -1,4041(+/-0,2253) HATS3v:(alvaDesc) +0,1445(+/-0,2399) R6v:(alvaDesc) -0,2255(+/-0,0566) H2p:(alvaDesc) +0,1494(+/-0,1103) R1u+:(alvaDesc) -0,0021(+/-0,008) H1s:(alvaDesc) -1,0451(+/-0,2494) H6v:(alvaDesc) +0,0625(+/-0,0119) H3s:(alvaDesc) +0,3557(+/-0,0455) HATS4p:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8986
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,8026
+R2 Adjusted :0,774
+SEE :0,0363
+Q2 :0,7363
+SDEP :0,0389
+Scaled Average rm2 LOO:0,6347
+Scaled Delta rm2 LOO:0,1559
+MAE (95% data;TRAIN*) :0,0236
+SD (95% data;TRAIN*) :0,0261
+MAE+3*SD (95% data;TRAIN*) :0,1018
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+H1v:(alvaDesc) : Description not available in database
+
+H0p:(alvaDesc) : Description not available in database
+
+HATS3v:(alvaDesc) : Description not available in database
+
+R6v:(alvaDesc) : Description not available in database
+
+H2p:(alvaDesc) : Description not available in database
+
+R1u+:(alvaDesc) : Description not available in database
+
+H1s:(alvaDesc) : Description not available in database
+
+H6v:(alvaDesc) : Description not available in database
+
+H3s:(alvaDesc) : Description not available in database
+
+HATS4p:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+H1v:(alvaDesc) : HATS3v:(alvaDesc) = 0,705
+H1v:(alvaDesc) : R6v:(alvaDesc) = 0,5148
+H1v:(alvaDesc) : H1s:(alvaDesc) = 0,7586
+H1v:(alvaDesc) : HATS4p:(alvaDesc) = 0,5195
+H0p:(alvaDesc) : R6v:(alvaDesc) = 0,5313
+H0p:(alvaDesc) : H2p:(alvaDesc) = 0,5029
+H0p:(alvaDesc) : HATS4p:(alvaDesc) = 0,5736
+HATS3v:(alvaDesc) : H2p:(alvaDesc) = 0,5593
+HATS3v:(alvaDesc) : R1u+:(alvaDesc) = 0,5
+HATS3v:(alvaDesc) : H1s:(alvaDesc) = 0,6526
+HATS3v:(alvaDesc) : HATS4p:(alvaDesc) = 0,6997
+H2p:(alvaDesc) : H1s:(alvaDesc) = 0,5132
+H2p:(alvaDesc) : H3s:(alvaDesc) = 0,6908
+H2p:(alvaDesc) : HATS4p:(alvaDesc) = 0,6439
+H1s:(alvaDesc) : H3s:(alvaDesc) = 0,6005
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1657) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,579(+/-0,0143)  +0,2155(+/-0,0461) HATS4p:(alvaDesc) +0,0013(+/-0,0003) H1m:(alvaDesc) -0,0744(+/-0,0266) R5m+:(alvaDesc) -0,5143(+/-0,0569) H1v:(alvaDesc) +0,012(+/-0,0037) H0p:(alvaDesc) -0,579(+/-0,2492) R2u+:(alvaDesc) +0,0335(+/-0,0089) HATS4s:(alvaDesc) -0,0182(+/-0,0108) H4m:(alvaDesc) -0,2591(+/-0,0489) H6p:(alvaDesc) +0,2673(+/-0,0499) R6p:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9311
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,81
+R2 Adjusted :0,7825
+SEE :0,0356
+Q2 :0,7373
+SDEP :0,0389
+Scaled Average rm2 LOO:0,6368
+Scaled Delta rm2 LOO:0,149
+MAE (95% data;TRAIN*) :0,0229
+SD (95% data;TRAIN*) :0,0253
+MAE+3*SD (95% data;TRAIN*) :0,0988
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+HATS4p:(alvaDesc) : Description not available in database
+
+H1m:(alvaDesc) : Description not available in database
+
+R5m+:(alvaDesc) : Description not available in database
+
+H1v:(alvaDesc) : Description not available in database
+
+H0p:(alvaDesc) : Description not available in database
+
+R2u+:(alvaDesc) : Description not available in database
+
+HATS4s:(alvaDesc) : Description not available in database
+
+H4m:(alvaDesc) : Description not available in database
+
+H6p:(alvaDesc) : Description not available in database
+
+R6p:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+HATS4p:(alvaDesc) : H1v:(alvaDesc) = 0,5195
+HATS4p:(alvaDesc) : H0p:(alvaDesc) = 0,5736
+HATS4p:(alvaDesc) : HATS4s:(alvaDesc) = 0,5353
+H1v:(alvaDesc) : R2u+:(alvaDesc) = 0,6151
+H0p:(alvaDesc) : R6p:(alvaDesc) = 0,6028
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 4355) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5807(+/-0,0156)  -0,0154(+/-0,0097) H1s:(alvaDesc) -1,2854(+/-0,2495) H6v:(alvaDesc) +3,2521(+/-1,0392) R6v+:(alvaDesc) +0,1071(+/-0,2608) HATS7v:(alvaDesc) +0,042(+/-0,0092) HATS0s:(alvaDesc) +0,3058(+/-0,0415) HATS4p:(alvaDesc) -0,3177(+/-0,0772) H1v:(alvaDesc) -0,6631(+/-0,2771) HATS3v:(alvaDesc) +0,0908(+/-0,0499) R6p:(alvaDesc) +0,0077(+/-0,0054) R1p:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8548
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7724
+R2 Adjusted :0,7394
+SEE :0,039
+Q2 :0,6996
+SDEP :0,0416
+Scaled Average rm2 LOO:0,5887
+Scaled Delta rm2 LOO:0,1654
+MAE (95% data;TRAIN*) :0,0264
+SD (95% data;TRAIN*) :0,0255
+MAE+3*SD (95% data;TRAIN*) :0,1028
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+H1s:(alvaDesc) : Description not available in database
+
+H6v:(alvaDesc) : Description not available in database
+
+R6v+:(alvaDesc) : Description not available in database
+
+HATS7v:(alvaDesc) : Description not available in database
+
+HATS0s:(alvaDesc) : Description not available in database
+
+HATS4p:(alvaDesc) : Description not available in database
+
+H1v:(alvaDesc) : Description not available in database
+
+HATS3v:(alvaDesc) : Description not available in database
+
+R6p:(alvaDesc) : Description not available in database
+
+R1p:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+H1s:(alvaDesc) : HATS0s:(alvaDesc) = 0,5175
+H1s:(alvaDesc) : H1v:(alvaDesc) = 0,7586
+H1s:(alvaDesc) : HATS3v:(alvaDesc) = 0,6526
+R6v+:(alvaDesc) : H1v:(alvaDesc) = 0,5514
+HATS4p:(alvaDesc) : H1v:(alvaDesc) = 0,5195
+HATS4p:(alvaDesc) : HATS3v:(alvaDesc) = 0,6997
+H1v:(alvaDesc) : HATS3v:(alvaDesc) = 0,705
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1978) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5844(+/-0,0135)  -1,9221(+/-0,2372) R5v:(alvaDesc) -0,1111(+/-0,0743) H1v:(alvaDesc) +0,6694(+/-0,0797) HATS4p:(alvaDesc) +0,4527(+/-0,3527) R3p+:(alvaDesc) +3,5814(+/-0,3942) R6v:(alvaDesc) -1,7858(+/-0,8174) R2v+:(alvaDesc) -0,1073(+/-0,0217) HATS7m:(alvaDesc) -4,1419(+/-1,0917) R6v+:(alvaDesc) -0,0306(+/-0,0112) H6s:(alvaDesc) -0,3044(+/-0,0752) HATS3p:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8987
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,8132
+R2 Adjusted :0,7861
+SEE :0,0353
+Q2 :0,751
+SDEP :0,0378
+Scaled Average rm2 LOO:0,6546
+Scaled Delta rm2 LOO:0,1409
+MAE (95% data;TRAIN*) :0,0238
+SD (95% data;TRAIN*) :0,0259
+MAE+3*SD (95% data;TRAIN*) :0,1014
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+R5v:(alvaDesc) : Description not available in database
+
+H1v:(alvaDesc) : Description not available in database
+
+HATS4p:(alvaDesc) : Description not available in database
+
+R3p+:(alvaDesc) : Description not available in database
+
+R6v:(alvaDesc) : Description not available in database
+
+R2v+:(alvaDesc) : Description not available in database
+
+HATS7m:(alvaDesc) : Description not available in database
+
+R6v+:(alvaDesc) : Description not available in database
+
+H6s:(alvaDesc) : Description not available in database
+
+HATS3p:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+R5v:(alvaDesc) : H1v:(alvaDesc) = 0,7609
+R5v:(alvaDesc) : HATS4p:(alvaDesc) = 0,5281
+R5v:(alvaDesc) : R3p+:(alvaDesc) = 0,5279
+R5v:(alvaDesc) : R6v:(alvaDesc) = 0,7684
+R5v:(alvaDesc) : R6v+:(alvaDesc) = 0,6711
+H1v:(alvaDesc) : HATS4p:(alvaDesc) = 0,5195
+H1v:(alvaDesc) : R6v:(alvaDesc) = 0,5148
+H1v:(alvaDesc) : R2v+:(alvaDesc) = 0,6291
+H1v:(alvaDesc) : R6v+:(alvaDesc) = 0,5514
+HATS4p:(alvaDesc) : R3p+:(alvaDesc) = 0,867
+HATS4p:(alvaDesc) : HATS3p:(alvaDesc) = 0,787
+R3p+:(alvaDesc) : HATS3p:(alvaDesc) = 0,8154
+R6v:(alvaDesc) : R6v+:(alvaDesc) = 0,7253
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 667) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5824(+/-0,0159)  -0,0879(+/-0,0244) HATS7m:(alvaDesc) -0,0128(+/-0,0088) H2s:(alvaDesc) -0,9638(+/-0,1487) R5v:(alvaDesc) -0,9544(+/-0,2683) R2u+:(alvaDesc) +0,0208(+/-0,007) H3m:(alvaDesc) -0,0133(+/-0,006) H1p:(alvaDesc) -0,3104(+/-0,2841) H6v:(alvaDesc) +0,4725(+/-0,0522) R6p:(alvaDesc) +0,3339(+/-0,0372) HATS4p:(alvaDesc) +0,7625(+/-0,3864) R7e+:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9118
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7689
+R2 Adjusted :0,7354
+SEE :0,0393
+Q2 :0,6854
+SDEP :0,0425
+Scaled Average rm2 LOO:0,572
+Scaled Delta rm2 LOO:0,1639
+MAE (95% data;TRAIN*) :0,0243
+SD (95% data;TRAIN*) :0,0249
+MAE+3*SD (95% data;TRAIN*) :0,099
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+HATS7m:(alvaDesc) : Description not available in database
+
+H2s:(alvaDesc) : Description not available in database
+
+R5v:(alvaDesc) : Description not available in database
+
+R2u+:(alvaDesc) : Description not available in database
+
+H3m:(alvaDesc) : Description not available in database
+
+H1p:(alvaDesc) : Description not available in database
+
+H6v:(alvaDesc) : Description not available in database
+
+R6p:(alvaDesc) : Description not available in database
+
+HATS4p:(alvaDesc) : Description not available in database
+
+R7e+:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+H2s:(alvaDesc) : R5v:(alvaDesc) = 0,6773
+H2s:(alvaDesc) : R6p:(alvaDesc) = 0,5897
+R5v:(alvaDesc) : R6p:(alvaDesc) = 0,5493
+R5v:(alvaDesc) : HATS4p:(alvaDesc) = 0,5281
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1428) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5791(+/-0,0145)  -0,5598(+/-0,0778) H1v:(alvaDesc) -0,0381(+/-0,0266) HATS7m:(alvaDesc) +0,0662(+/-0,0122) HATS4s:(alvaDesc) +0,1806(+/-0,0435) R5p:(alvaDesc) +0,0166(+/-0,0035) H0p:(alvaDesc) +0,001(+/-0,0004) H1m:(alvaDesc) -0,0277(+/-0,0125) H1s:(alvaDesc) +0,0043(+/-0,0021) RTp:(alvaDesc) +0,479(+/-0,3963) R7e+:(alvaDesc) -0,2215(+/-0,0551) H6p:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9016
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7948
+R2 Adjusted :0,7651
+SEE :0,037
+Q2 :0,7028
+SDEP :0,0413
+Scaled Average rm2 LOO:0,5944
+Scaled Delta rm2 LOO:0,1514
+MAE (95% data;TRAIN*) :0,0241
+SD (95% data;TRAIN*) :0,0255
+MAE+3*SD (95% data;TRAIN*) :0,1006
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+H1v:(alvaDesc) : Description not available in database
+
+HATS7m:(alvaDesc) : Description not available in database
+
+HATS4s:(alvaDesc) : Description not available in database
+
+R5p:(alvaDesc) : Description not available in database
+
+H0p:(alvaDesc) : Description not available in database
+
+H1m:(alvaDesc) : Description not available in database
+
+H1s:(alvaDesc) : Description not available in database
+
+RTp:(alvaDesc) : Description not available in database
+
+R7e+:(alvaDesc) : Description not available in database
+
+H6p:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+H1v:(alvaDesc) : R5p:(alvaDesc) = 0,69
+H1v:(alvaDesc) : H1s:(alvaDesc) = 0,7586
+H1v:(alvaDesc) : RTp:(alvaDesc) = 0,7385
+HATS4s:(alvaDesc) : H1s:(alvaDesc) = 0,7709
+R5p:(alvaDesc) : H0p:(alvaDesc) = 0,6998
+R5p:(alvaDesc) : H1s:(alvaDesc) = 0,5914
+R5p:(alvaDesc) : RTp:(alvaDesc) = 0,6936
+H0p:(alvaDesc) : RTp:(alvaDesc) = 0,5943
+H1s:(alvaDesc) : RTp:(alvaDesc) = 0,5578
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 7434) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5778(+/-0,0151)  -0,0426(+/-0,0239) R5m+:(alvaDesc) -0,4197(+/-0,1018) H1v:(alvaDesc) -0,171(+/-0,0801) H2p:(alvaDesc) +1,1133(+/-0,2359) R3p+:(alvaDesc) +2,2541(+/-0,5434) R5u+:(alvaDesc) +0,0751(+/-0,0462) H3p:(alvaDesc) +0,3124(+/-0,0375) HATS5p:(alvaDesc) -0,6102(+/-0,3351) HATS3v:(alvaDesc) +0,3572(+/-0,1069) R1v+:(alvaDesc) -0,2296(+/-0,1407) R5v:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8877
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7878
+R2 Adjusted :0,757
+SEE :0,0376
+Q2 :0,7193
+SDEP :0,0402
+Scaled Average rm2 LOO:0,6129
+Scaled Delta rm2 LOO:0,1624
+MAE (95% data;TRAIN*) :0,0241
+SD (95% data;TRAIN*) :0,0261
+MAE+3*SD (95% data;TRAIN*) :0,1024
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+R5m+:(alvaDesc) : Description not available in database
+
+H1v:(alvaDesc) : Description not available in database
+
+H2p:(alvaDesc) : Description not available in database
+
+R3p+:(alvaDesc) : Description not available in database
+
+R5u+:(alvaDesc) : Description not available in database
+
+H3p:(alvaDesc) : Description not available in database
+
+HATS5p:(alvaDesc) : Description not available in database
+
+HATS3v:(alvaDesc) : Description not available in database
+
+R1v+:(alvaDesc) : Description not available in database
+
+R5v:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+H1v:(alvaDesc) : R5u+:(alvaDesc) = 0,5229
+H1v:(alvaDesc) : HATS5p:(alvaDesc) = 0,6146
+H1v:(alvaDesc) : HATS3v:(alvaDesc) = 0,705
+H1v:(alvaDesc) : R5v:(alvaDesc) = 0,7609
+H2p:(alvaDesc) : R3p+:(alvaDesc) = 0,6064
+H2p:(alvaDesc) : H3p:(alvaDesc) = 0,8077
+H2p:(alvaDesc) : HATS5p:(alvaDesc) = 0,5191
+H2p:(alvaDesc) : HATS3v:(alvaDesc) = 0,5593
+H2p:(alvaDesc) : R5v:(alvaDesc) = 0,6513
+R3p+:(alvaDesc) : H3p:(alvaDesc) = 0,5021
+R3p+:(alvaDesc) : HATS3v:(alvaDesc) = 0,6233
+R3p+:(alvaDesc) : R5v:(alvaDesc) = 0,5279
+R5u+:(alvaDesc) : HATS3v:(alvaDesc) = 0,6849
+HATS5p:(alvaDesc) : R5v:(alvaDesc) = 0,6606
+HATS3v:(alvaDesc) : R5v:(alvaDesc) = 0,5381
+################################# END OF RESULTS #################################
+

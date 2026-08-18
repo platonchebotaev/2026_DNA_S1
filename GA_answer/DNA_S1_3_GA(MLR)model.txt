@@ -1,0 +1,738 @@
+GA-MLR (File Code: 5379) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5735(+/-0,0158)  +1,2226(+/-0,2317) Eta_sh_y:(alvaDesc) -0,6846(+/-0,1291) SpMin8_Bh(m):(alvaDesc) -0,0008(+/-0,0005) P_VSA_LogP_3:(alvaDesc) +0,0645(+/-0,0307) DISPp:(alvaDesc) -0,1071(+/-0,0628) ASP:(alvaDesc) +0,3088(+/-0,1279) SpMin5_Bh(i):(alvaDesc) -0,0161(+/-0,007) Eta_F:(alvaDesc) -0,0074(+/-0,0145) TDB01p:(alvaDesc) -0,0566(+/-0,0163) VE1_G/D:(alvaDesc) -0,3452(+/-0,0614) VE1sign_G:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8954
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7871
+R2 Adjusted :0,7563
+SEE :0,0377
+Q2 :0,7037
+SDEP :0,0413
+Scaled Average rm2 LOO:0,5939
+Scaled Delta rm2 LOO:0,1627
+MAE (95% data;TRAIN*) :0,0257
+SD (95% data;TRAIN*) :0,0243
+MAE+3*SD (95% data;TRAIN*) :0,0986
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Eta_sh_y:(alvaDesc) : Description not available in database
+
+SpMin8_Bh(m):(alvaDesc) : Description not available in database
+
+P_VSA_LogP_3:(alvaDesc) : Description not available in database
+
+DISPp:(alvaDesc) : Description not available in database
+
+ASP:(alvaDesc) : Description not available in database
+
+SpMin5_Bh(i):(alvaDesc) : Description not available in database
+
+Eta_F:(alvaDesc) : Description not available in database
+
+TDB01p:(alvaDesc) : Description not available in database
+
+VE1_G/D:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+Eta_sh_y:(alvaDesc) : SpMin8_Bh(m):(alvaDesc) = 0,6359
+Eta_sh_y:(alvaDesc) : P_VSA_LogP_3:(alvaDesc) = 0,746
+Eta_sh_y:(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,5082
+Eta_sh_y:(alvaDesc) : Eta_F:(alvaDesc) = 0,833
+Eta_sh_y:(alvaDesc) : VE1_G/D:(alvaDesc) = 0,7507
+SpMin8_Bh(m):(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,6021
+SpMin8_Bh(m):(alvaDesc) : Eta_F:(alvaDesc) = 0,5585
+P_VSA_LogP_3:(alvaDesc) : Eta_F:(alvaDesc) = 0,5386
+P_VSA_LogP_3:(alvaDesc) : VE1_G/D:(alvaDesc) = 0,5163
+DISPp:(alvaDesc) : ASP:(alvaDesc) = 0,6955
+SpMin5_Bh(i):(alvaDesc) : Eta_F:(alvaDesc) = 0,5448
+Eta_F:(alvaDesc) : VE1_G/D:(alvaDesc) = 0,5998
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 6374) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5662(+/-0,0378)  -0,8328(+/-0,0807) SpMin8_Bh(m):(alvaDesc) +0,0269(+/-0,0101) TDB07v:(alvaDesc) -0,0025(+/-0,0004) P_VSA_charge_2:(alvaDesc) +0,0011(+/-0,0003) QYYp:(alvaDesc) -0,404(+/-0,0669) VE1sign_G:(alvaDesc) -0,0588(+/-0,0117) SM05_AEA(dm):(alvaDesc) -0,0056(+/-0,001) DISPm:(alvaDesc) +0,0357(+/-0,0965) Eta_psi1:(alvaDesc) +0,0016(+/-0,0002) QXXs:(alvaDesc) -0,0108(+/-0,0065) VE3sign_RG:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9285
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,8083
+R2 Adjusted :0,7805
+SEE :0,0358
+Q2 :0,74
+SDEP :0,0387
+Scaled Average rm2 LOO:0,6391
+Scaled Delta rm2 LOO:0,1585
+MAE (95% data;TRAIN*) :0,0233
+SD (95% data;TRAIN*) :0,0251
+MAE+3*SD (95% data;TRAIN*) :0,0985
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+SpMin8_Bh(m):(alvaDesc) : Description not available in database
+
+TDB07v:(alvaDesc) : Description not available in database
+
+P_VSA_charge_2:(alvaDesc) : Description not available in database
+
+QYYp:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+SM05_AEA(dm):(alvaDesc) : Description not available in database
+
+DISPm:(alvaDesc) : Description not available in database
+
+Eta_psi1:(alvaDesc) : Description not available in database
+
+QXXs:(alvaDesc) : Description not available in database
+
+VE3sign_RG:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+SpMin8_Bh(m):(alvaDesc) : SM05_AEA(dm):(alvaDesc) = 0,7246
+SpMin8_Bh(m):(alvaDesc) : QXXs:(alvaDesc) = 0,5936
+TDB07v:(alvaDesc) : QYYp:(alvaDesc) = 0,5624
+TDB07v:(alvaDesc) : DISPm:(alvaDesc) = 0,5598
+QYYp:(alvaDesc) : DISPm:(alvaDesc) = 0,7304
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 3365) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5811(+/-0,0167)  +0,1299(+/-0,0644) PJI3:(alvaDesc) -0,0028(+/-0,0009) P_VSA_s_5:(alvaDesc) +0,6261(+/-0,0829) SpMin5_Bh(i):(alvaDesc) -0,9514(+/-0,1262) SpMin8_Bh(m):(alvaDesc) -0,0043(+/-0,001) DISPm:(alvaDesc) +0,1148(+/-0,0321) SM13_AEA(bo):(alvaDesc) +7,0507(+/-1,4433) Eta_B_A:(alvaDesc) +0,0548(+/-0,0368) Eig10_EA(dm):(alvaDesc) +0,0002(+/-0,0001) G1:(alvaDesc) -0,1049(+/-0,0605) VE1sign_G:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8289
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7449
+R2 Adjusted :0,708
+SEE :0,0412
+Q2 :0,6472
+SDEP :0,045
+Scaled Average rm2 LOO:0,5261
+Scaled Delta rm2 LOO:0,1738
+MAE (95% data;TRAIN*) :0,0263
+SD (95% data;TRAIN*) :0,0267
+MAE+3*SD (95% data;TRAIN*) :0,1063
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+PJI3:(alvaDesc) : Description not available in database
+
+P_VSA_s_5:(alvaDesc) : Description not available in database
+
+SpMin5_Bh(i):(alvaDesc) : Description not available in database
+
+SpMin8_Bh(m):(alvaDesc) : Description not available in database
+
+DISPm:(alvaDesc) : Description not available in database
+
+SM13_AEA(bo):(alvaDesc) : Description not available in database
+
+Eta_B_A:(alvaDesc) : Description not available in database
+
+Eig10_EA(dm):(alvaDesc) : Description not available in database
+
+G1:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+PJI3:(alvaDesc) : DISPm:(alvaDesc) = 0,6079
+P_VSA_s_5:(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,5392
+P_VSA_s_5:(alvaDesc) : SpMin8_Bh(m):(alvaDesc) = 0,6708
+P_VSA_s_5:(alvaDesc) : SM13_AEA(bo):(alvaDesc) = 0,6295
+SpMin5_Bh(i):(alvaDesc) : SpMin8_Bh(m):(alvaDesc) = 0,6021
+SpMin5_Bh(i):(alvaDesc) : SM13_AEA(bo):(alvaDesc) = 0,5422
+SpMin8_Bh(m):(alvaDesc) : SM13_AEA(bo):(alvaDesc) = 0,7255
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8461) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5803(+/-0,0159)  -0,0005(+/-0,0002) QZZs:(alvaDesc) +0,3144(+/-0,0767) SpMin8_Bh(m):(alvaDesc) +0,5333(+/-0,4725) SpMin7_Bh(e):(alvaDesc) -0,0011(+/-0,001) P_VSA_s_5:(alvaDesc) -0,0044(+/-0,001) TDB07m:(alvaDesc) +0,3042(+/-0,0658) PJI3:(alvaDesc) -0,0038(+/-0,0009) DISPm:(alvaDesc) +0,2379(+/-0,0258) Eig08_AEA(bo):(alvaDesc) +4,8744(+/-0,7112) JGI5:(alvaDesc) -1,2939(+/-0,1976) SpMin8_Bh(p):(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,862
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7544
+R2 Adjusted :0,7188
+SEE :0,0405
+Q2 :0,6714
+SDEP :0,0435
+Scaled Average rm2 LOO:0,5541
+Scaled Delta rm2 LOO:0,1736
+MAE (95% data;TRAIN*) :0,0239
+SD (95% data;TRAIN*) :0,0274
+MAE+3*SD (95% data;TRAIN*) :0,106
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+QZZs:(alvaDesc) : Description not available in database
+
+SpMin8_Bh(m):(alvaDesc) : Description not available in database
+
+SpMin7_Bh(e):(alvaDesc) : Description not available in database
+
+P_VSA_s_5:(alvaDesc) : Description not available in database
+
+TDB07m:(alvaDesc) : Description not available in database
+
+PJI3:(alvaDesc) : Description not available in database
+
+DISPm:(alvaDesc) : Description not available in database
+
+Eig08_AEA(bo):(alvaDesc) : Description not available in database
+
+JGI5:(alvaDesc) : Description not available in database
+
+SpMin8_Bh(p):(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+QZZs:(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,5629
+QZZs:(alvaDesc) : PJI3:(alvaDesc) = 0,7923
+SpMin8_Bh(m):(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,6708
+SpMin8_Bh(m):(alvaDesc) : SpMin8_Bh(p):(alvaDesc) = 0,7881
+P_VSA_s_5:(alvaDesc) : SpMin8_Bh(p):(alvaDesc) = 0,6391
+PJI3:(alvaDesc) : DISPm:(alvaDesc) = 0,6079
+Eig08_AEA(bo):(alvaDesc) : SpMin8_Bh(p):(alvaDesc) = 0,5649
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 3347) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5819(+/-0,0155)  -0,0014(+/-0,0006) P_VSA_s_5:(alvaDesc) -0,2457(+/-0,0387) ASP:(alvaDesc) +0,13(+/-0,0191) DISPp:(alvaDesc) -0,2414(+/-0,0496) VE1sign_G:(alvaDesc) -0,0127(+/-0,0156) VE1_G/D:(alvaDesc) +0,0169(+/-0,0055) VE3sign_G/D:(alvaDesc) +1,6258(+/-0,463) JGI5:(alvaDesc) -0,0029(+/-0,0007) QYYv:(alvaDesc) -0,0187(+/-0,0142) VE1_RG:(alvaDesc) +0,2822(+/-0,0749) PJI3:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8892
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7786
+R2 Adjusted :0,7465
+SEE :0,0384
+Q2 :0,6998
+SDEP :0,0416
+Scaled Average rm2 LOO:0,5903
+Scaled Delta rm2 LOO:0,1552
+MAE (95% data;TRAIN*) :0,0243
+SD (95% data;TRAIN*) :0,0259
+MAE+3*SD (95% data;TRAIN*) :0,1019
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+P_VSA_s_5:(alvaDesc) : Description not available in database
+
+ASP:(alvaDesc) : Description not available in database
+
+DISPp:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+VE1_G/D:(alvaDesc) : Description not available in database
+
+VE3sign_G/D:(alvaDesc) : Description not available in database
+
+JGI5:(alvaDesc) : Description not available in database
+
+QYYv:(alvaDesc) : Description not available in database
+
+VE1_RG:(alvaDesc) : Description not available in database
+
+PJI3:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+P_VSA_s_5:(alvaDesc) : VE1_G/D:(alvaDesc) = 0,6124
+P_VSA_s_5:(alvaDesc) : QYYv:(alvaDesc) = 0,5831
+ASP:(alvaDesc) : DISPp:(alvaDesc) = 0,6955
+ASP:(alvaDesc) : PJI3:(alvaDesc) = 0,6235
+DISPp:(alvaDesc) : QYYv:(alvaDesc) = 0,6119
+DISPp:(alvaDesc) : PJI3:(alvaDesc) = 0,6877
+VE1_G/D:(alvaDesc) : VE1_RG:(alvaDesc) = 0,5222
+QYYv:(alvaDesc) : VE1_RG:(alvaDesc) = 0,5149
+QYYv:(alvaDesc) : PJI3:(alvaDesc) = 0,7184
+VE1_RG:(alvaDesc) : PJI3:(alvaDesc) = 0,6765
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 4735) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5814(+/-0,0144)  -0,3996(+/-0,0701) ASP:(alvaDesc) -0,1231(+/-0,0311) TDB05v:(alvaDesc) +0,0035(+/-0,0015) DISPm:(alvaDesc) +0,0017(+/-0,0004) QXXs:(alvaDesc) +0,1964(+/-0,0188) DISPp:(alvaDesc) -0,0019(+/-0,0005) QXXp:(alvaDesc) +0,0002(+/-0,0001) G1:(alvaDesc) -0,4706(+/-0,0545) VE1sign_G:(alvaDesc) -0,3111(+/-0,0546) SpMin8_Bh(m):(alvaDesc) -0,0096(+/-0,0097) SPAN:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,9376
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,8055
+R2 Adjusted :0,7773
+SEE :0,036
+Q2 :0,7306
+SDEP :0,0394
+Scaled Average rm2 LOO:0,6279
+Scaled Delta rm2 LOO:0,1546
+MAE (95% data;TRAIN*) :0,0231
+SD (95% data;TRAIN*) :0,0248
+MAE+3*SD (95% data;TRAIN*) :0,0976
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+ASP:(alvaDesc) : Description not available in database
+
+TDB05v:(alvaDesc) : Description not available in database
+
+DISPm:(alvaDesc) : Description not available in database
+
+QXXs:(alvaDesc) : Description not available in database
+
+DISPp:(alvaDesc) : Description not available in database
+
+QXXp:(alvaDesc) : Description not available in database
+
+G1:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+SpMin8_Bh(m):(alvaDesc) : Description not available in database
+
+SPAN:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+ASP:(alvaDesc) : DISPm:(alvaDesc) = 0,7494
+ASP:(alvaDesc) : DISPp:(alvaDesc) = 0,6955
+ASP:(alvaDesc) : SPAN:(alvaDesc) = 0,6321
+TDB05v:(alvaDesc) : DISPm:(alvaDesc) = 0,6913
+TDB05v:(alvaDesc) : DISPp:(alvaDesc) = 0,7189
+TDB05v:(alvaDesc) : SPAN:(alvaDesc) = 0,8051
+DISPm:(alvaDesc) : DISPp:(alvaDesc) = 0,8176
+DISPm:(alvaDesc) : SPAN:(alvaDesc) = 0,8104
+QXXs:(alvaDesc) : QXXp:(alvaDesc) = 0,783
+QXXs:(alvaDesc) : SpMin8_Bh(m):(alvaDesc) = 0,5936
+DISPp:(alvaDesc) : SPAN:(alvaDesc) = 0,7348
+QXXp:(alvaDesc) : SpMin8_Bh(m):(alvaDesc) = 0,5539
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 3662) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5838(+/-0,0167)  +0,0227(+/-0,0104) TDB01p:(alvaDesc) +0,1306(+/-0,0207) DISPp:(alvaDesc) -0,0354(+/-0,0583) TDB05v:(alvaDesc) -0,0007(+/-0,0004) P_VSA_i_3:(alvaDesc) -0,0037(+/-0,0012) P_VSA_s_5:(alvaDesc) -0,0028(+/-0,0011) DISPm:(alvaDesc) -0,3467(+/-0,0524) VE1sign_G:(alvaDesc) -0,0078(+/-0,0181) P_VSA_charge_7:(alvaDesc) +0,2916(+/-0,2277) Eta_sh_y:(alvaDesc) +0,493(+/-0,4825) JGI6:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,865
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7404
+R2 Adjusted :0,7027
+SEE :0,0416
+Q2 :0,6513
+SDEP :0,0448
+Scaled Average rm2 LOO:0,5276
+Scaled Delta rm2 LOO:0,1933
+MAE (95% data;TRAIN*) :0,0272
+SD (95% data;TRAIN*) :0,0243
+MAE+3*SD (95% data;TRAIN*) :0,1001
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+TDB01p:(alvaDesc) : Description not available in database
+
+DISPp:(alvaDesc) : Description not available in database
+
+TDB05v:(alvaDesc) : Description not available in database
+
+P_VSA_i_3:(alvaDesc) : Description not available in database
+
+P_VSA_s_5:(alvaDesc) : Description not available in database
+
+DISPm:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+P_VSA_charge_7:(alvaDesc) : Description not available in database
+
+Eta_sh_y:(alvaDesc) : Description not available in database
+
+JGI6:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+DISPp:(alvaDesc) : TDB05v:(alvaDesc) = 0,7189
+DISPp:(alvaDesc) : DISPm:(alvaDesc) = 0,8176
+TDB05v:(alvaDesc) : DISPm:(alvaDesc) = 0,6913
+P_VSA_s_5:(alvaDesc) : Eta_sh_y:(alvaDesc) = 0,6379
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8482) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5813(+/-0,0155)  -0,0105(+/-0,002) TDB05m:(alvaDesc) -0,2899(+/-0,0615) VE1sign_G:(alvaDesc) -0,0034(+/-0,0007) P_VSA_charge_2:(alvaDesc) +0,0185(+/-0,0607) SpMin4_Bh(s):(alvaDesc) +0,03(+/-0,0516) SpMin6_Bh(e):(alvaDesc) +0,0191(+/-0,0066) VE3sign_G/D:(alvaDesc) -0,1902(+/-0,0776) SpMin8_Bh(p):(alvaDesc) +0,0002(+/-0,0002) QZZs:(alvaDesc) +0,0391(+/-0,0231) DISPp:(alvaDesc) -0,174(+/-0,0397) Eig10_EA(dm):(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7785
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7489
+R2 Adjusted :0,7126
+SEE :0,0409
+Q2 :0,666
+SDEP :0,0438
+Scaled Average rm2 LOO:0,5471
+Scaled Delta rm2 LOO:0,1769
+MAE (95% data;TRAIN*) :0,0249
+SD (95% data;TRAIN*) :0,0301
+MAE+3*SD (95% data;TRAIN*) :0,1151
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+TDB05m:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+P_VSA_charge_2:(alvaDesc) : Description not available in database
+
+SpMin4_Bh(s):(alvaDesc) : Description not available in database
+
+SpMin6_Bh(e):(alvaDesc) : Description not available in database
+
+VE3sign_G/D:(alvaDesc) : Description not available in database
+
+SpMin8_Bh(p):(alvaDesc) : Description not available in database
+
+QZZs:(alvaDesc) : Description not available in database
+
+DISPp:(alvaDesc) : Description not available in database
+
+Eig10_EA(dm):(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+SpMin4_Bh(s):(alvaDesc) : SpMin8_Bh(p):(alvaDesc) = 0,5809
+QZZs:(alvaDesc) : DISPp:(alvaDesc) = 0,5985
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 9890) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,568(+/-0,017)  +0,5942(+/-0,109) SpMin6_Bh(i):(alvaDesc) -0,4477(+/-0,106) SpMin8_Bh(m):(alvaDesc) -0,0007(+/-0,0008) P_VSA_charge_8:(alvaDesc) -0,0054(+/-0,001) DISPm:(alvaDesc) -0,0202(+/-0,0088) Eta_F:(alvaDesc) +0,2024(+/-0,0577) PJI3:(alvaDesc) +0,0016(+/-0,0004) QXXs:(alvaDesc) -0,0036(+/-0,0009) P_VSA_s_5:(alvaDesc) +0,9335(+/-0,5475) JGI5:(alvaDesc) +0,3416(+/-0,0993) SpMin5_Bh(i):(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8907
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7485
+R2 Adjusted :0,7121
+SEE :0,041
+Q2 :0,6469
+SDEP :0,0451
+Scaled Average rm2 LOO:0,5253
+Scaled Delta rm2 LOO:0,1757
+MAE (95% data;TRAIN*) :0,0242
+SD (95% data;TRAIN*) :0,0259
+MAE+3*SD (95% data;TRAIN*) :0,1019
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+SpMin6_Bh(i):(alvaDesc) : Description not available in database
+
+SpMin8_Bh(m):(alvaDesc) : Description not available in database
+
+P_VSA_charge_8:(alvaDesc) : Description not available in database
+
+DISPm:(alvaDesc) : Description not available in database
+
+Eta_F:(alvaDesc) : Description not available in database
+
+PJI3:(alvaDesc) : Description not available in database
+
+QXXs:(alvaDesc) : Description not available in database
+
+P_VSA_s_5:(alvaDesc) : Description not available in database
+
+JGI5:(alvaDesc) : Description not available in database
+
+SpMin5_Bh(i):(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+SpMin6_Bh(i):(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,5249
+SpMin8_Bh(m):(alvaDesc) : Eta_F:(alvaDesc) = 0,5585
+SpMin8_Bh(m):(alvaDesc) : QXXs:(alvaDesc) = 0,5936
+SpMin8_Bh(m):(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,6708
+SpMin8_Bh(m):(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,6021
+DISPm:(alvaDesc) : PJI3:(alvaDesc) = 0,6079
+Eta_F:(alvaDesc) : QXXs:(alvaDesc) = 0,7374
+Eta_F:(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,7122
+Eta_F:(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,5448
+QXXs:(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,5682
+QXXs:(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,7542
+P_VSA_s_5:(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,5392
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 7532) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5829(+/-0,015)  -0,6622(+/-0,1483) SpMin8_Bh(m):(alvaDesc) +0,0095(+/-0,042) DISPp:(alvaDesc) -0,0024(+/-0,0007) P_VSA_s_5:(alvaDesc) -0,1224(+/-0,0496) ASP:(alvaDesc) -0,4766(+/-0,0691) VE1sign_G:(alvaDesc) +0,0013(+/-0,0004) QYYp:(alvaDesc) +0,001(+/-0,0003) P_VSA_LogP_6:(alvaDesc) +0,001(+/-0,0003) QXXs:(alvaDesc) +0,2423(+/-0,1263) SpMin5_Bh(i):(alvaDesc) -0,0001(+/-0,0054) P_VSA_charge_6:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8617
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7773
+R2 Adjusted :0,745
+SEE :0,0385
+Q2 :0,6932
+SDEP :0,042
+Scaled Average rm2 LOO:0,5825
+Scaled Delta rm2 LOO:0,1535
+MAE (95% data;TRAIN*) :0,0262
+SD (95% data;TRAIN*) :0,0253
+MAE+3*SD (95% data;TRAIN*) :0,1022
+Prediction Quality(95% data;TRAIN*) :GOOD
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+SpMin8_Bh(m):(alvaDesc) : Description not available in database
+
+DISPp:(alvaDesc) : Description not available in database
+
+P_VSA_s_5:(alvaDesc) : Description not available in database
+
+ASP:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+QYYp:(alvaDesc) : Description not available in database
+
+P_VSA_LogP_6:(alvaDesc) : Description not available in database
+
+QXXs:(alvaDesc) : Description not available in database
+
+SpMin5_Bh(i):(alvaDesc) : Description not available in database
+
+P_VSA_charge_6:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+SpMin8_Bh(m):(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,6708
+SpMin8_Bh(m):(alvaDesc) : P_VSA_LogP_6:(alvaDesc) = 0,5683
+SpMin8_Bh(m):(alvaDesc) : QXXs:(alvaDesc) = 0,5936
+SpMin8_Bh(m):(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,6021
+DISPp:(alvaDesc) : ASP:(alvaDesc) = 0,6955
+DISPp:(alvaDesc) : QYYp:(alvaDesc) = 0,8637
+P_VSA_s_5:(alvaDesc) : P_VSA_LogP_6:(alvaDesc) = 0,6029
+P_VSA_s_5:(alvaDesc) : QXXs:(alvaDesc) = 0,5682
+P_VSA_s_5:(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,5392
+ASP:(alvaDesc) : QYYp:(alvaDesc) = 0,5778
+QXXs:(alvaDesc) : SpMin5_Bh(i):(alvaDesc) = 0,7542
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 7745) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5767(+/-0,0147)  -0,048(+/-0,012) SM05_AEA(dm):(alvaDesc) -0,6411(+/-0,0941) SpMin8_Bh(m):(alvaDesc) +0,0485(+/-0,0109) TDB07v:(alvaDesc) +0,0022(+/-0,0002) QXXs:(alvaDesc) -0,1952(+/-0,0585) VE1sign_G:(alvaDesc) -0,0011(+/-0,0006) P_VSA_charge_2:(alvaDesc) +0,4524(+/-0,1326) SpMin6_Bh(i):(alvaDesc) -0,0098(+/-0,0023) TDB04m:(alvaDesc) -0,0033(+/-0,0011) TDB07m:(alvaDesc) -0,0021(+/-0,0008) P_VSA_s_5:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8298
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7895
+R2 Adjusted :0,7589
+SEE :0,0375
+Q2 :0,708
+SDEP :0,041
+Scaled Average rm2 LOO:0,6009
+Scaled Delta rm2 LOO:0,1487
+MAE (95% data;TRAIN*) :0,0256
+SD (95% data;TRAIN*) :0,0272
+MAE+3*SD (95% data;TRAIN*) :0,1072
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+SM05_AEA(dm):(alvaDesc) : Description not available in database
+
+SpMin8_Bh(m):(alvaDesc) : Description not available in database
+
+TDB07v:(alvaDesc) : Description not available in database
+
+QXXs:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+P_VSA_charge_2:(alvaDesc) : Description not available in database
+
+SpMin6_Bh(i):(alvaDesc) : Description not available in database
+
+TDB04m:(alvaDesc) : Description not available in database
+
+TDB07m:(alvaDesc) : Description not available in database
+
+P_VSA_s_5:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+SM05_AEA(dm):(alvaDesc) : SpMin8_Bh(m):(alvaDesc) = 0,7246
+SpMin8_Bh(m):(alvaDesc) : QXXs:(alvaDesc) = 0,5936
+SpMin8_Bh(m):(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,6708
+TDB07v:(alvaDesc) : TDB07m:(alvaDesc) = 0,5325
+QXXs:(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,5682
+SpMin6_Bh(i):(alvaDesc) : P_VSA_s_5:(alvaDesc) = 0,5249
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1092) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5791(+/-0,0157)  -0,2123(+/-0,0443) ASP:(alvaDesc) +0,0194(+/-0,0059) VE3sign_G/D:(alvaDesc) -0,0022(+/-0,0007) P_VSA_charge_2:(alvaDesc) -0,0003(+/-0,0001) QXXm:(alvaDesc) +0,0001(+/-0,0001) G1:(alvaDesc) -0,3273(+/-0,0509) VE1sign_G:(alvaDesc) -0,0862(+/-0,0441) TDB05v:(alvaDesc) +0,1281(+/-0,0247) DISPp:(alvaDesc) +0,0004(+/-0,0002) P_VSA_i_3:(alvaDesc) -0,1029(+/-0,0257) Eig10_AEA(bo):(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8633
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7622
+R2 Adjusted :0,7277
+SEE :0,0398
+Q2 :0,6866
+SDEP :0,0425
+Scaled Average rm2 LOO:0,5715
+Scaled Delta rm2 LOO:0,1765
+MAE (95% data;TRAIN*) :0,0247
+SD (95% data;TRAIN*) :0,0266
+MAE+3*SD (95% data;TRAIN*) :0,1045
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+ASP:(alvaDesc) : Description not available in database
+
+VE3sign_G/D:(alvaDesc) : Description not available in database
+
+P_VSA_charge_2:(alvaDesc) : Description not available in database
+
+QXXm:(alvaDesc) : Description not available in database
+
+G1:(alvaDesc) : Description not available in database
+
+VE1sign_G:(alvaDesc) : Description not available in database
+
+TDB05v:(alvaDesc) : Description not available in database
+
+DISPp:(alvaDesc) : Description not available in database
+
+P_VSA_i_3:(alvaDesc) : Description not available in database
+
+Eig10_AEA(bo):(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+ASP:(alvaDesc) : DISPp:(alvaDesc) = 0,6955
+TDB05v:(alvaDesc) : DISPp:(alvaDesc) = 0,7189
+################################# END OF RESULTS #################################
+

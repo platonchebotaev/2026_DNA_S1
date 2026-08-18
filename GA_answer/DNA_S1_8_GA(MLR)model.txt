@@ -1,0 +1,609 @@
+GA-MLR (File Code: 3446) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4178(+/-0,0623)  +0,026(+/-0,0094) F03[C-X]:(alvaDesc) -0,0974(+/-0,0207) F01[C-C]:(alvaDesc) +0,0257(+/-0,0073) F06[N-X]:(alvaDesc) -0,1048(+/-0,0719) DLS_01:(alvaDesc) +0,0262(+/-0,0322) CATS2D_03_AP:(alvaDesc) +0,0114(+/-0,0079) CATS2D_03_DD:(alvaDesc) +1,186(+/-0,3994) QEDu:(alvaDesc) -0,2499(+/-0,3931) QED:(alvaDesc) -0,002(+/-0,0018) T(N..O):(alvaDesc) +0,1283(+/-0,1197) R7s+:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8453
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7516
+R2 Adjusted :0,7156
+SEE :0,0407
+Q2 :0,6824
+SDEP :0,0427
+Scaled Average rm2 LOO:0,5702
+Scaled Delta rm2 LOO:0,1504
+MAE (95% data;TRAIN*) :0,0248
+SD (95% data;TRAIN*) :0,0273
+MAE+3*SD (95% data;TRAIN*) :0,1066
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+F03[C-X]:(alvaDesc) : Description not available in database
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+F06[N-X]:(alvaDesc) : Description not available in database
+
+DLS_01:(alvaDesc) : Description not available in database
+
+CATS2D_03_AP:(alvaDesc) : Description not available in database
+
+CATS2D_03_DD:(alvaDesc) : Description not available in database
+
+QEDu:(alvaDesc) : Description not available in database
+
+QED:(alvaDesc) : Description not available in database
+
+T(N..O):(alvaDesc) : Description not available in database
+
+R7s+:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+DLS_01:(alvaDesc) : QED:(alvaDesc) = 0,5969
+QEDu:(alvaDesc) : QED:(alvaDesc) = 0,7787
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 4593) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,538(+/-0,0676)  +0,0217(+/-0,0062) F03[C-X]:(alvaDesc) -0,4251(+/-0,1108) DLS_cons:(alvaDesc) +1,1744(+/-0,1356) QEDu:(alvaDesc) -0,0159(+/-0,0204) CATS2D_02_AP:(alvaDesc) +0,0413(+/-0,0171) CATS2D_03_DP:(alvaDesc) -0,0785(+/-0,0138) F01[C-C]:(alvaDesc) +0,0279(+/-0,0104) F05[N-X]:(alvaDesc) +0,0055(+/-0,0119) CATS2D_02_DA:(alvaDesc) +0,009(+/-0,0254) B05[N-X]:(alvaDesc) +0,017(+/-0,0122) CATS3D_04_DP:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8311
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7581
+R2 Adjusted :0,723
+SEE :0,0402
+Q2 :0,688
+SDEP :0,0424
+Scaled Average rm2 LOO:0,5768
+Scaled Delta rm2 LOO:0,1508
+MAE (95% data;TRAIN*) :0,0253
+SD (95% data;TRAIN*) :0,0275
+MAE+3*SD (95% data;TRAIN*) :0,1077
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+F03[C-X]:(alvaDesc) : Description not available in database
+
+DLS_cons:(alvaDesc) : Description not available in database
+
+QEDu:(alvaDesc) : Description not available in database
+
+CATS2D_02_AP:(alvaDesc) : Description not available in database
+
+CATS2D_03_DP:(alvaDesc) : Description not available in database
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+F05[N-X]:(alvaDesc) : Description not available in database
+
+CATS2D_02_DA:(alvaDesc) : Description not available in database
+
+B05[N-X]:(alvaDesc) : Description not available in database
+
+CATS3D_04_DP:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+F03[C-X]:(alvaDesc) : B05[N-X]:(alvaDesc) = 0,5225
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8060) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5433(+/-0,0879)  +0,1749(+/-0,3263) QED:(alvaDesc) -0,0088(+/-0,0214) CATS2D_04_AA:(alvaDesc) +0,0559(+/-0,0142) F02[C-X]:(alvaDesc) +0,8217(+/-0,2876) QEDu:(alvaDesc) -0,0067(+/-0,0087) CATS2D_03_DA:(alvaDesc) +0,0265(+/-0,0068) F05[N-X]:(alvaDesc) -0,0598(+/-0,2) DLS_03:(alvaDesc) -0,3219(+/-0,2801) DLS_cons:(alvaDesc) +0,1029(+/-0,0905) R7s+:(alvaDesc) -0,0623(+/-0,029) F01[C-C]:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8216
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7285
+R2 Adjusted :0,6891
+SEE :0,0425
+Q2 :0,6458
+SDEP :0,0451
+Scaled Average rm2 LOO:0,5261
+Scaled Delta rm2 LOO:0,1611
+MAE (95% data;TRAIN*) :0,0262
+SD (95% data;TRAIN*) :0,0271
+MAE+3*SD (95% data;TRAIN*) :0,1074
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+QED:(alvaDesc) : Description not available in database
+
+CATS2D_04_AA:(alvaDesc) : Description not available in database
+
+F02[C-X]:(alvaDesc) : Description not available in database
+
+QEDu:(alvaDesc) : Description not available in database
+
+CATS2D_03_DA:(alvaDesc) : Description not available in database
+
+F05[N-X]:(alvaDesc) : Description not available in database
+
+DLS_03:(alvaDesc) : Description not available in database
+
+DLS_cons:(alvaDesc) : Description not available in database
+
+R7s+:(alvaDesc) : Description not available in database
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+QED:(alvaDesc) : QEDu:(alvaDesc) = 0,7787
+QED:(alvaDesc) : DLS_03:(alvaDesc) = 0,6391
+DLS_03:(alvaDesc) : DLS_cons:(alvaDesc) = 0,6666
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8163) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5253(+/-0,0813)  -0,0949(+/-0,0126) F01[C-C]:(alvaDesc) +0,979(+/-0,1534) QEDu:(alvaDesc) +0,0435(+/-0,0057) F03[C-X]:(alvaDesc) -0,1248(+/-0,1259) LLS_02:(alvaDesc) +0,0394(+/-0,0109) SHED_DD:(alvaDesc) -0,1553(+/-0,1034) DLS_03:(alvaDesc) -0,0254(+/-0,0115) F03[N-X]:(alvaDesc) +0,2662(+/-0,0912) R7s+:(alvaDesc) -0,0216(+/-0,0067) CATS2D_04_DD:(alvaDesc) -0,0061(+/-0,0091) CATS2D_02_DA:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8606
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7734
+R2 Adjusted :0,7405
+SEE :0,0389
+Q2 :0,698
+SDEP :0,0417
+Scaled Average rm2 LOO:0,5875
+Scaled Delta rm2 LOO:0,1599
+MAE (95% data;TRAIN*) :0,0245
+SD (95% data;TRAIN*) :0,0269
+MAE+3*SD (95% data;TRAIN*) :0,1051
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+QEDu:(alvaDesc) : Description not available in database
+
+F03[C-X]:(alvaDesc) : Description not available in database
+
+LLS_02:(alvaDesc) : Description not available in database
+
+SHED_DD:(alvaDesc) : Description not available in database
+
+DLS_03:(alvaDesc) : Description not available in database
+
+F03[N-X]:(alvaDesc) : Description not available in database
+
+R7s+:(alvaDesc) : Description not available in database
+
+CATS2D_04_DD:(alvaDesc) : Description not available in database
+
+CATS2D_02_DA:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 3227) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4748(+/-0,0441)  +0,7799(+/-0,0996) QEDu:(alvaDesc) -0,1459(+/-0,0575) DLS_01:(alvaDesc) -0,0098(+/-0,0189) CATS3D_02_DA:(alvaDesc) -0,0801(+/-0,0204) F01[C-C]:(alvaDesc) +0,3103(+/-0,1321) R7s+:(alvaDesc) +0,0406(+/-0,007) F03[C-X]:(alvaDesc) +0,0586(+/-0,0661) CATS2D_02_AA:(alvaDesc) -0,0468(+/-0,0462) CATS2D_05_DA:(alvaDesc) -0,036(+/-0,0236) CATS2D_03_AP:(alvaDesc) -0,0384(+/-0,0775) CATS3D_02_AA:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8591
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7476
+R2 Adjusted :0,7111
+SEE :0,041
+Q2 :0,6642
+SDEP :0,0439
+Scaled Average rm2 LOO:0,5509
+Scaled Delta rm2 LOO:0,1397
+MAE (95% data;TRAIN*) :0,0247
+SD (95% data;TRAIN*) :0,0268
+MAE+3*SD (95% data;TRAIN*) :0,105
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+QEDu:(alvaDesc) : Description not available in database
+
+DLS_01:(alvaDesc) : Description not available in database
+
+CATS3D_02_DA:(alvaDesc) : Description not available in database
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+R7s+:(alvaDesc) : Description not available in database
+
+F03[C-X]:(alvaDesc) : Description not available in database
+
+CATS2D_02_AA:(alvaDesc) : Description not available in database
+
+CATS2D_05_DA:(alvaDesc) : Description not available in database
+
+CATS2D_03_AP:(alvaDesc) : Description not available in database
+
+CATS3D_02_AA:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+CATS3D_02_DA:(alvaDesc) : CATS3D_02_AA:(alvaDesc) = 0,5673
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8120) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4226(+/-0,0572)  +1,1849(+/-0,491) QEDu:(alvaDesc) -0,2443(+/-0,4515) QED:(alvaDesc) -0,1005(+/-0,0279) F01[C-C]:(alvaDesc) +0,0218(+/-0,0141) F03[C-X]:(alvaDesc) +0,0876(+/-0,1091) R7s+:(alvaDesc) +0,0179(+/-0,0491) MDEN-13:(alvaDesc) +0,0473(+/-0,0521) CATS2D_03_AP:(alvaDesc) +0,0275(+/-0,0089) F06[N-X]:(alvaDesc) -0,1121(+/-0,0724) DLS_01:(alvaDesc) +0,0373(+/-0,034) CATS2D_03_DP:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8498
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7472
+R2 Adjusted :0,7105
+SEE :0,0411
+Q2 :0,6789
+SDEP :0,043
+Scaled Average rm2 LOO:0,5649
+Scaled Delta rm2 LOO:0,1585
+MAE (95% data;TRAIN*) :0,025
+SD (95% data;TRAIN*) :0,027
+MAE+3*SD (95% data;TRAIN*) :0,1058
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+QEDu:(alvaDesc) : Description not available in database
+
+QED:(alvaDesc) : Description not available in database
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+F03[C-X]:(alvaDesc) : Description not available in database
+
+R7s+:(alvaDesc) : Description not available in database
+
+MDEN-13:(alvaDesc) : Description not available in database
+
+CATS2D_03_AP:(alvaDesc) : Description not available in database
+
+F06[N-X]:(alvaDesc) : Description not available in database
+
+DLS_01:(alvaDesc) : Description not available in database
+
+CATS2D_03_DP:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+QEDu:(alvaDesc) : QED:(alvaDesc) = 0,7787
+QED:(alvaDesc) : DLS_01:(alvaDesc) = 0,5969
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 7703) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,6032(+/-0,0833)  +0,2374(+/-0,0958) R7s+:(alvaDesc) +0,1151(+/-0,0344) s2_phRelSize_2:(alvaDesc) -0,1083(+/-0,3141) QED:(alvaDesc) -0,1088(+/-0,017) F01[C-C]:(alvaDesc) +1,3542(+/-0,3613) QEDu:(alvaDesc) +0,0404(+/-0,0285) CATS2D_02_AL:(alvaDesc) +0,0569(+/-0,009) F05[N-X]:(alvaDesc) -0,0265(+/-0,0095) F06[N-X]:(alvaDesc) +0,076(+/-0,0166) CATS2D_03_DP:(alvaDesc) -0,5205(+/-0,182) DLS_cons:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8462
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7655
+R2 Adjusted :0,7316
+SEE :0,0395
+Q2 :0,6837
+SDEP :0,0427
+Scaled Average rm2 LOO:0,5702
+Scaled Delta rm2 LOO:0,1623
+MAE (95% data;TRAIN*) :0,0244
+SD (95% data;TRAIN*) :0,0276
+MAE+3*SD (95% data;TRAIN*) :0,1072
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+R7s+:(alvaDesc) : Description not available in database
+
+s2_phRelSize_2:(alvaDesc) : Description not available in database
+
+QED:(alvaDesc) : Description not available in database
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+QEDu:(alvaDesc) : Description not available in database
+
+CATS2D_02_AL:(alvaDesc) : Description not available in database
+
+F05[N-X]:(alvaDesc) : Description not available in database
+
+F06[N-X]:(alvaDesc) : Description not available in database
+
+CATS2D_03_DP:(alvaDesc) : Description not available in database
+
+DLS_cons:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+QED:(alvaDesc) : QEDu:(alvaDesc) = 0,7787
+QEDu:(alvaDesc) : CATS2D_02_AL:(alvaDesc) = 0,6206
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 815) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5653(+/-0,0921)  +0,0069(+/-0,0092) F04[C-X]:(alvaDesc) -0,4064(+/-0,159) DLS_cons:(alvaDesc) +1,0347(+/-0,1355) QEDu:(alvaDesc) +0,0181(+/-0,0107) F03[C-X]:(alvaDesc) -0,0647(+/-0,0131) F01[C-C]:(alvaDesc) -0,0199(+/-0,01) CATS2D_04_DA:(alvaDesc) +0,0089(+/-0,0079) SHED_DP:(alvaDesc) +0,0793(+/-0,045) R5s+:(alvaDesc) +0,1159(+/-0,0575) MDEN-13:(alvaDesc) +0,0392(+/-0,0099) F06[N-X]:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8532
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7654
+R2 Adjusted :0,7314
+SEE :0,0396
+Q2 :0,6777
+SDEP :0,0431
+Scaled Average rm2 LOO:0,5639
+Scaled Delta rm2 LOO:0,1553
+MAE (95% data;TRAIN*) :0,0248
+SD (95% data;TRAIN*) :0,0269
+MAE+3*SD (95% data;TRAIN*) :0,1056
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+F04[C-X]:(alvaDesc) : Description not available in database
+
+DLS_cons:(alvaDesc) : Description not available in database
+
+QEDu:(alvaDesc) : Description not available in database
+
+F03[C-X]:(alvaDesc) : Description not available in database
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+CATS2D_04_DA:(alvaDesc) : Description not available in database
+
+SHED_DP:(alvaDesc) : Description not available in database
+
+R5s+:(alvaDesc) : Description not available in database
+
+MDEN-13:(alvaDesc) : Description not available in database
+
+F06[N-X]:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1464) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5893(+/-0,0967)  +1,198(+/-0,168) QEDu:(alvaDesc) -0,0767(+/-0,0117) F01[C-C]:(alvaDesc) -0,0082(+/-0,027) s2_pathLength:(alvaDesc) +0,0305(+/-0,0071) F05[N-X]:(alvaDesc) +0,0462(+/-0,0204) CATS2D_03_DP:(alvaDesc) -0,4999(+/-0,1811) DLS_cons:(alvaDesc) -0,0008(+/-0,1114) s2_phSize:(alvaDesc) +0,0631(+/-0,0941) s2_phRelSize_2:(alvaDesc) -0,0049(+/-0,028) Ro5:(alvaDesc) +0,0238(+/-0,0064) F03[C-X]:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8268
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7627
+R2 Adjusted :0,7283
+SEE :0,0398
+Q2 :0,6798
+SDEP :0,0429
+Scaled Average rm2 LOO:0,5669
+Scaled Delta rm2 LOO:0,1536
+MAE (95% data;TRAIN*) :0,0255
+SD (95% data;TRAIN*) :0,0274
+MAE+3*SD (95% data;TRAIN*) :0,1078
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+QEDu:(alvaDesc) : Description not available in database
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+s2_pathLength:(alvaDesc) : Description not available in database
+
+F05[N-X]:(alvaDesc) : Description not available in database
+
+CATS2D_03_DP:(alvaDesc) : Description not available in database
+
+DLS_cons:(alvaDesc) : Description not available in database
+
+s2_phSize:(alvaDesc) : Description not available in database
+
+s2_phRelSize_2:(alvaDesc) : Description not available in database
+
+Ro5:(alvaDesc) : Description not available in database
+
+F03[C-X]:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+s2_phSize:(alvaDesc) : s2_phRelSize_2:(alvaDesc) = 0,7353
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 6892) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5618(+/-0,0939)  -0,3216(+/-0,1477) DLS_cons:(alvaDesc) -0,0629(+/-0,0142) F01[C-C]:(alvaDesc) +0,0246(+/-0,009) F05[N-X]:(alvaDesc) -0,0305(+/-0,0324) nLevel4:(alvaDesc) +0,0436(+/-0,0075) F03[C-X]:(alvaDesc) -0,0267(+/-0,0101) CATS2D_03_DA:(alvaDesc) +0,8435(+/-0,1148) QEDu:(alvaDesc) -0,0049(+/-0,014) SsssCH:(alvaDesc) +0,2269(+/-0,1252) R7s+:(alvaDesc) -0,0224(+/-0,0278) CATS2D_05_DA:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8593
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7606
+R2 Adjusted :0,7258
+SEE :0,04
+Q2 :0,6767
+SDEP :0,0431
+Scaled Average rm2 LOO:0,5637
+Scaled Delta rm2 LOO:0,1511
+MAE (95% data;TRAIN*) :0,0243
+SD (95% data;TRAIN*) :0,0271
+MAE+3*SD (95% data;TRAIN*) :0,1056
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+DLS_cons:(alvaDesc) : Description not available in database
+
+F01[C-C]:(alvaDesc) : Description not available in database
+
+F05[N-X]:(alvaDesc) : Description not available in database
+
+nLevel4:(alvaDesc) : Description not available in database
+
+F03[C-X]:(alvaDesc) : Description not available in database
+
+CATS2D_03_DA:(alvaDesc) : Description not available in database
+
+QEDu:(alvaDesc) : Description not available in database
+
+SsssCH:(alvaDesc) : Description not available in database
+
+R7s+:(alvaDesc) : Description not available in database
+
+CATS2D_05_DA:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+F03[C-X]:(alvaDesc) : CATS2D_03_DA:(alvaDesc) = 0,6298
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 4988) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5908(+/-0,0844)  +0,1707(+/-0,069) MDEN-13:(alvaDesc) +0,8203(+/-0,1369) QED:(alvaDesc) +0,0231(+/-0,0074) F05[N-X]:(alvaDesc) +0,0243(+/-0,0105) F03[C-X]:(alvaDesc) +0,1883(+/-0,3262) s2_relSize:(alvaDesc) +0,1291(+/-0,0484) R5s+:(alvaDesc) -0,0226(+/-0,0091) CATS2D_04_DD:(alvaDesc) -0,4846(+/-0,1434) DLS_cons:(alvaDesc) +0,0475(+/-0,0122) CATS2D_04_AP:(alvaDesc) -0,0731(+/-0,0635) s2_phSize:(alvaDesc)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,8304
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,77
+R2 Adjusted :0,7366
+SEE :0,0392
+Q2 :0,6872
+SDEP :0,0424
+Scaled Average rm2 LOO:0,5763
+Scaled Delta rm2 LOO:0,1493
+MAE (95% data;TRAIN*) :0,0254
+SD (95% data;TRAIN*) :0,0274
+MAE+3*SD (95% data;TRAIN*) :0,1075
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+MDEN-13:(alvaDesc) : Description not available in database
+
+QED:(alvaDesc) : Description not available in database
+
+F05[N-X]:(alvaDesc) : Description not available in database
+
+F03[C-X]:(alvaDesc) : Description not available in database
+
+s2_relSize:(alvaDesc) : Description not available in database
+
+R5s+:(alvaDesc) : Description not available in database
+
+CATS2D_04_DD:(alvaDesc) : Description not available in database
+
+DLS_cons:(alvaDesc) : Description not available in database
+
+CATS2D_04_AP:(alvaDesc) : Description not available in database
+
+s2_phSize:(alvaDesc) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+QED:(alvaDesc) : CATS2D_04_DD:(alvaDesc) = 0,5754
+s2_relSize:(alvaDesc) : s2_phSize:(alvaDesc) = 0,6238
+################################# END OF RESULTS #################################
+

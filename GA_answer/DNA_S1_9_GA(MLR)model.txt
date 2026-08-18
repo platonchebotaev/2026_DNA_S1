@@ -1,0 +1,649 @@
+GA-MLR (File Code: 1614) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4918(+/-0,0177)  -0,0127(+/-0,0024) Se1C2N2ss:(OEstate) +0,4339(+/-0,0968) Se1Cu2Ag1s:(OEstate) +0,0348(+/-0,0062) Se1C2N3ss:(OEstate) +0,0418(+/-0,0102) SsCu:(OEstate) +0,1106(+/-0,013) s4_numRotBonds:(alvaDesc) +0,08(+/-0,0396) Se1Au1Au1:(OEstate) -0,0062(+/-0,0022) Se1C3N2ss:(OEstate) +0,2323(+/-0,0896) Se1Cu1Cu2s:(OEstate) +0,0096(+/-0,0058) Se1C3N3ss:(OEstate) +0,0473(+/-0,0115) SsAg:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7819
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,757
+R2 Adjusted :0,7218
+SEE :0,0403
+Q2 :0,6732
+SDEP :0,0434
+Scaled Average rm2 LOO:0,5558
+Scaled Delta rm2 LOO:0,1755
+MAE (95% data;TRAIN*) :0,0277
+SD (95% data;TRAIN*) :0,0274
+MAE+3*SD (95% data;TRAIN*) :0,11
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+Se1Cu2Ag1s:(OEstate) : Description not available in database
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+Se1Au1Au1:(OEstate) : Description not available in database
+
+Se1C3N2ss:(OEstate) : Description not available in database
+
+Se1Cu1Cu2s:(OEstate) : Description not available in database
+
+Se1C3N3ss:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 5296) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4772(+/-0,0206)  +0,0647(+/-0,0121) SsAg:(OEstate) -0,0106(+/-0,005) Se1C2N2ss:(OEstate) -0,0065(+/-0,0026) Se1C3N2ss:(OEstate) +0,0379(+/-0,0081) Se1C2N3ss:(OEstate) +0,0602(+/-0,0196) Se1N3Cu2ss:(OEstate) +0,1218(+/-0,017) s4_numRotBonds:(alvaDesc) -0,0157(+/-0,0152) SssAg:(OEstate) +0,0516(+/-0,0108) SsCu:(OEstate) +0,0932(+/-0,0443) Se1Au1Au1:(OEstate) -0,01(+/-0,048) Se1C3C3ss:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7823
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,6998
+R2 Adjusted :0,6563
+SEE :0,0447
+Q2 :0,5978
+SDEP :0,0481
+Scaled Average rm2 LOO:0,467
+Scaled Delta rm2 LOO:0,1899
+MAE (95% data;TRAIN*) :0,0293
+SD (95% data;TRAIN*) :0,026
+MAE+3*SD (95% data;TRAIN*) :0,1073
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+SsAg:(OEstate) : Description not available in database
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+Se1C3N2ss:(OEstate) : Description not available in database
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+Se1N3Cu2ss:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+SssAg:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+Se1Au1Au1:(OEstate) : Description not available in database
+
+Se1C3C3ss:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+Se1C2N2ss:(OEstate) : Se1C3C3ss:(OEstate) = 0,7181
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1573) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4756(+/-0,0203)  +0,435(+/-0,1014) Se1Cu2Ag1s:(OEstate) +0,1188(+/-0,014) s4_numRotBonds:(alvaDesc) +0,0411(+/-0,006) Se1C2N3ss:(OEstate) -0,0116(+/-0,0024) Se1C2N2ss:(OEstate) -0,005(+/-0,0023) Se1C3N2ss:(OEstate) +0,047(+/-0,0122) SsAg:(OEstate) +0,0552(+/-0,0404) Se1Ag1Au1:(OEstate) +0,0363(+/-0,039) Se1Cu1Au1:(OEstate) +0,0946(+/-0,042) Se1Au1Au1:(OEstate) +0,0506(+/-0,0101) SsCu:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7662
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7355
+R2 Adjusted :0,6971
+SEE :0,042
+Q2 :0,6522
+SDEP :0,0447
+Scaled Average rm2 LOO:0,5299
+Scaled Delta rm2 LOO:0,1827
+MAE (95% data;TRAIN*) :0,0291
+SD (95% data;TRAIN*) :0,0269
+MAE+3*SD (95% data;TRAIN*) :0,1097
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Se1Cu2Ag1s:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+Se1C3N2ss:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+Se1Ag1Au1:(OEstate) : Description not available in database
+
+Se1Cu1Au1:(OEstate) : Description not available in database
+
+Se1Au1Au1:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8993) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5075(+/-0,0186)  +0,0364(+/-0,0066) Se1C2N3ss:(OEstate) -0,012(+/-0,0026) Se1C2N2ss:(OEstate) +0,1157(+/-0,0141) s4_numRotBonds:(alvaDesc) +0,0486(+/-0,0125) SsAg:(OEstate) -0,0081(+/-0,0024) Se1C3N2ss:(OEstate) -0,0107(+/-0,0171) SssAg:(OEstate) -0,4162(+/-0,179) Se1Cu2Au1s:(OEstate) +0,084(+/-0,0219) Se1N3Cu2ss:(OEstate) +0,0448(+/-0,1245) Se1Cu1Ag2s:(OEstate) +0,0387(+/-0,0117) SsCu:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7325
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,704
+R2 Adjusted :0,6611
+SEE :0,0444
+Q2 :0,6139
+SDEP :0,0471
+Scaled Average rm2 LOO:0,483
+Scaled Delta rm2 LOO:0,2029
+MAE (95% data;TRAIN*) :0,0296
+SD (95% data;TRAIN*) :0,0279
+MAE+3*SD (95% data;TRAIN*) :0,1132
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+Se1C3N2ss:(OEstate) : Description not available in database
+
+SssAg:(OEstate) : Description not available in database
+
+Se1Cu2Au1s:(OEstate) : Description not available in database
+
+Se1N3Cu2ss:(OEstate) : Description not available in database
+
+Se1Cu1Ag2s:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 2277) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4701(+/-0,0211)  +0,0457(+/-0,0077) Se1C2N3ss:(OEstate) +0,0554(+/-0,013) SsAg:(OEstate) -0,0996(+/-0,0247) Se1C3C3ss:(OEstate) +0,1464(+/-0,0145) s4_numRotBonds:(alvaDesc) -0,0102(+/-0,0023) Se1C3N2ss:(OEstate) +0,0513(+/-0,0424) Se1Ag1Au1:(OEstate) -0,3905(+/-0,1803) Se1Cu2Au1s:(OEstate) +0,0995(+/-0,0443) Se1Au1Au1:(OEstate) +0,0488(+/-0,0112) SsCu:(OEstate) +0,0751(+/-0,0215) Se1N3Cu2ss:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7945
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7034
+R2 Adjusted :0,6604
+SEE :0,0445
+Q2 :0,6175
+SDEP :0,0469
+Scaled Average rm2 LOO:0,4867
+Scaled Delta rm2 LOO:0,2033
+MAE (95% data;TRAIN*) :0,0265
+SD (95% data;TRAIN*) :0,0279
+MAE+3*SD (95% data;TRAIN*) :0,1103
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+Se1C3C3ss:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+Se1C3N2ss:(OEstate) : Description not available in database
+
+Se1Ag1Au1:(OEstate) : Description not available in database
+
+Se1Cu2Au1s:(OEstate) : Description not available in database
+
+Se1Au1Au1:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+Se1N3Cu2ss:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1263) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5076(+/-0,0167)  +0,0373(+/-0,0059) Se1C2N3ss:(OEstate) +0,0985(+/-0,0134) s4_numRotBonds:(alvaDesc) +0,0349(+/-0,0113) SsCu:(OEstate) +0,4791(+/-0,1022) Se1Cu2Ag1s:(OEstate) -0,0122(+/-0,0024) Se1C2N2ss:(OEstate) -0,0065(+/-0,0022) Se1C3N2ss:(OEstate) -0,0229(+/-0,0159) SssAg:(OEstate) +0,0429(+/-0,1177) Se1Cu1Ag2s:(OEstate) +0,2688(+/-0,0949) Se1Cu1Cu2s:(OEstate) +0,0424(+/-0,0116) SsAg:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7122
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7457
+R2 Adjusted :0,7089
+SEE :0,0412
+Q2 :0,6529
+SDEP :0,0447
+Scaled Average rm2 LOO:0,5305
+Scaled Delta rm2 LOO:0,1872
+MAE (95% data;TRAIN*) :0,0299
+SD (95% data;TRAIN*) :0,0284
+MAE+3*SD (95% data;TRAIN*) :0,1151
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+Se1Cu2Ag1s:(OEstate) : Description not available in database
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+Se1C3N2ss:(OEstate) : Description not available in database
+
+SssAg:(OEstate) : Description not available in database
+
+Se1Cu1Ag2s:(OEstate) : Description not available in database
+
+Se1Cu1Cu2s:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 1383) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4503(+/-0,0217)  -0,0137(+/-0,0022) Se1C2N2ss:(OEstate) +0,0568(+/-0,0462) Se1Au1Au1:(OEstate) +0,0373(+/-0,006) Se1C2N3ss:(OEstate) +0,5222(+/-0,1041) Se1Cu2Ag1s:(OEstate) +0,0679(+/-0,0145) SsAg:(OEstate) +0,0582(+/-0,0126) SsCu:(OEstate) +0,0922(+/-0,0127) s4_numRotBonds:(alvaDesc) -0,0271(+/-0,0142) SssAg:(OEstate) +0,0303(+/-0,0178) SsAu:(OEstate) +0,2712(+/-0,0951) Se1Cu1Cu2s:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,775
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7443
+R2 Adjusted :0,7073
+SEE :0,0413
+Q2 :0,6521
+SDEP :0,0447
+Scaled Average rm2 LOO:0,5296
+Scaled Delta rm2 LOO:0,1853
+MAE (95% data;TRAIN*) :0,0285
+SD (95% data;TRAIN*) :0,027
+MAE+3*SD (95% data;TRAIN*) :0,1094
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+Se1Au1Au1:(OEstate) : Description not available in database
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+Se1Cu2Ag1s:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+SssAg:(OEstate) : Description not available in database
+
+SsAu:(OEstate) : Description not available in database
+
+Se1Cu1Cu2s:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 4763) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5051(+/-0,0163)  +0,0128(+/-0,007) Se1O2Ag2ss:(OEstate) +0,0984(+/-0,0133) s4_numRotBonds:(alvaDesc) +0,0347(+/-0,0063) Se1C2N3ss:(OEstate) -0,013(+/-0,0024) Se1C2N2ss:(OEstate) +0,4562(+/-0,0976) Se1Cu2Ag1s:(OEstate) -0,0068(+/-0,0022) Se1C3N2ss:(OEstate) +0,2676(+/-0,0915) Se1Cu1Cu2s:(OEstate) +0,0372(+/-0,0101) SsCu:(OEstate) +0,0121(+/-0,006) Se1C3N3ss:(OEstate) +0,043(+/-0,0114) SsAg:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7523
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7543
+R2 Adjusted :0,7187
+SEE :0,0405
+Q2 :0,6578
+SDEP :0,0444
+Scaled Average rm2 LOO:0,5383
+Scaled Delta rm2 LOO:0,173
+MAE (95% data;TRAIN*) :0,0291
+SD (95% data;TRAIN*) :0,0274
+MAE+3*SD (95% data;TRAIN*) :0,1113
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Se1O2Ag2ss:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+Se1Cu2Ag1s:(OEstate) : Description not available in database
+
+Se1C3N2ss:(OEstate) : Description not available in database
+
+Se1Cu1Cu2s:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+Se1C3N3ss:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8872) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,449(+/-0,0216)  -0,0139(+/-0,0022) Se1C2N2ss:(OEstate) +0,0857(+/-0,0127) s4_numRotBonds:(alvaDesc) +0,0342(+/-0,0061) Se1C2N3ss:(OEstate) +0,0533(+/-0,0135) SsCu:(OEstate) +0,0449(+/-0,0156) SsAu:(OEstate) +0,5634(+/-0,1044) Se1Cu2Ag1s:(OEstate) +0,0735(+/-0,0143) SsAg:(OEstate) -0,0353(+/-0,0152) SssAg:(OEstate) +0,1558(+/-0,1141) Se1Cu1Au2s:(OEstate) +0,3449(+/-0,1042) Se1Cu1Cu2s:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7669
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7456
+R2 Adjusted :0,7087
+SEE :0,0412
+Q2 :0,6495
+SDEP :0,0449
+Scaled Average rm2 LOO:0,5278
+Scaled Delta rm2 LOO:0,179
+MAE (95% data;TRAIN*) :0,0288
+SD (95% data;TRAIN*) :0,0271
+MAE+3*SD (95% data;TRAIN*) :0,1101
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+SsAu:(OEstate) : Description not available in database
+
+Se1Cu2Ag1s:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+SssAg:(OEstate) : Description not available in database
+
+Se1Cu1Au2s:(OEstate) : Description not available in database
+
+Se1Cu1Cu2s:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 4068) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4802(+/-0,0197)  +0,0488(+/-0,0074) Se1C2N3ss:(OEstate) -0,0068(+/-0,0024) Se1C3N2ss:(OEstate) +0,0632(+/-0,0121) SsAg:(OEstate) +0,1239(+/-0,0143) s4_numRotBonds:(alvaDesc) -0,0618(+/-0,0237) Se1N3Au2ss:(OEstate) -0,0118(+/-0,0027) Se1C2N2ss:(OEstate) +0,0174(+/-0,0073) Se1C3N3ss:(OEstate) -0,051(+/-0,0245) Se1N3Ag2ss:(OEstate) +0,0505(+/-0,0107) SsCu:(OEstate) +0,0904(+/-0,0442) Se1Au1Au1:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7745
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,6971
+R2 Adjusted :0,6532
+SEE :0,0449
+Q2 :0,6117
+SDEP :0,0473
+Scaled Average rm2 LOO:0,4835
+Scaled Delta rm2 LOO:0,1846
+MAE (95% data;TRAIN*) :0,0297
+SD (95% data;TRAIN*) :0,0259
+MAE+3*SD (95% data;TRAIN*) :0,1075
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+Se1C3N2ss:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+Se1N3Au2ss:(OEstate) : Description not available in database
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+Se1C3N3ss:(OEstate) : Description not available in database
+
+Se1N3Ag2ss:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+Se1Au1Au1:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8653) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,4476(+/-0,0217)  +0,0881(+/-0,0127) s4_numRotBonds:(alvaDesc) -0,0145(+/-0,0023) Se1C2N2ss:(OEstate) +0,509(+/-0,1006) Se1Cu2Ag1s:(OEstate) +0,0608(+/-0,0124) SsCu:(OEstate) +0,0344(+/-0,0064) Se1C2N3ss:(OEstate) +0,0103(+/-0,0061) Se1C3N3ss:(OEstate) +0,0717(+/-0,0143) SsAg:(OEstate) +0,2843(+/-0,0941) Se1Cu1Cu2s:(OEstate) +0,0397(+/-0,0154) SsAu:(OEstate) +0,0137(+/-0,0072) Se1O2Ag2ss:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7662
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,7438
+R2 Adjusted :0,7067
+SEE :0,0413
+Q2 :0,6382
+SDEP :0,0456
+Scaled Average rm2 LOO:0,5164
+Scaled Delta rm2 LOO:0,1691
+MAE (95% data;TRAIN*) :0,0289
+SD (95% data;TRAIN*) :0,027
+MAE+3*SD (95% data;TRAIN*) :0,1099
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+Se1Cu2Ag1s:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+Se1C3N3ss:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+Se1Cu1Cu2s:(OEstate) : Description not available in database
+
+SsAu:(OEstate) : Description not available in database
+
+Se1O2Ag2ss:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
+GA-MLR (File Code: 8643) : Resulted QSAR MLR equation and Validation Parameters :
+
+MLR equation :
+---------------
+Log_S1 = 2,5093(+/-0,0167)  +0,1035(+/-0,013) s4_numRotBonds:(alvaDesc) -0,0135(+/-0,0025) Se1C2N2ss:(OEstate) +0,0386(+/-0,0102) SsCu:(OEstate) +0,0324(+/-0,0064) Se1C2N3ss:(OEstate) -0,0068(+/-0,0022) Se1C3N2ss:(OEstate) +0,2405(+/-0,091) Se1Cu1Cu2s:(OEstate) +0,4875(+/-0,1045) Se1Cu2Ag1s:(OEstate) +0,0354(+/-0,0127) SsAg:(OEstate) +0,1956(+/-0,1476) Se1Ag1Ag2s:(OEstate) +0,0099(+/-0,0059) Se1C3N3ss:(OEstate)
+
+FITNESS FUNCTION :
+------------------
+Fitness Score 1 (based on Error/MAE-based parameters): 0,7183
+
+INTERNAL Validation Parameters:
+-------------------------------
+R2 :0,749
+R2 Adjusted :0,7126
+SEE :0,0409
+Q2 :0,6608
+SDEP :0,0442
+Scaled Average rm2 LOO:0,5406
+Scaled Delta rm2 LOO:0,1809
+MAE (95% data;TRAIN*) :0,0287
+SD (95% data;TRAIN*) :0,0292
+MAE+3*SD (95% data;TRAIN*) :0,1164
+Prediction Quality(95% data;TRAIN*) :MODERATE
+
+****************************************************************
+Description about selected variables are as follows: 
+****************************************************************
+
+s4_numRotBonds:(alvaDesc) : Description not available in database
+
+Se1C2N2ss:(OEstate) : Description not available in database
+
+SsCu:(OEstate) : Description not available in database
+
+Se1C2N3ss:(OEstate) : Description not available in database
+
+Se1C3N2ss:(OEstate) : Description not available in database
+
+Se1Cu1Cu2s:(OEstate) : Description not available in database
+
+Se1Cu2Ag1s:(OEstate) : Description not available in database
+
+SsAg:(OEstate) : Description not available in database
+
+Se1Ag1Ag2s:(OEstate) : Description not available in database
+
+Se1C3N3ss:(OEstate) : Description not available in database
+
+
+************************************************************************************************
+Names of the selected descriptors (GA-MLR model) with Inter-Correlation Coefficient (R^2)>0.5: 
+************************************************************************************************
+################################# END OF RESULTS #################################
+
